@@ -1,4 +1,4 @@
-package vaishnavi;
+package varsha;
 
 public class Sapmple {
 
