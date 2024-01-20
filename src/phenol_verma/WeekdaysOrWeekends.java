@@ -49,6 +49,7 @@ public class WeekdaysOrWeekends {
 		weekdaysOrWeekends.dayDecider(6);
 		weekdaysOrWeekends.dayDecider(-3);
 	}
+
 }
 		
 
