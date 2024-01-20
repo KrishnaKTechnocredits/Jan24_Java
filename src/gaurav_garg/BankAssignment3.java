@@ -26,9 +26,6 @@ class BankAssignment3
 		bankassignment3.credit(200);
 		bankassignment3.debit(700);
 		bankassignment3.display();
-	}
-	
-	
-	
+	}	
 	
 }
