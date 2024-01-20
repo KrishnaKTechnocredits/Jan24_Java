@@ -15,5 +15,5 @@
 
 ### Checklist before requesting a review :ballot_box_with_check:
 <!--Type 'x' in lowercase between brackets where to check below instructions-->
-- [] I have performed a self-review of my code
-- [] My changes generate no compile time errors
+- [ ] I have performed a self-review of my code
+- [ ] My changes generate no compile time errors
