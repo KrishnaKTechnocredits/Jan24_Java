@@ -1,4 +1,4 @@
-package arithmaticop;
+package sarang_kulkarni;
 
 public class ArithmaticOeration {
 
