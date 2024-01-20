@@ -1,5 +1,3 @@
-package phenol_verma;
-
 /*I want to create a class called Employee. instance variable : firstName, lastName, cmpName, city, pincode
 
 setPrimaryInfo(String firstName, String lastName)
@@ -7,6 +5,8 @@ setOtherInfo(String cmpName, String city, int pincode)
 printAllDetails() -> print all 5 instance variable.
 
 main -> setPrimaryInfo("techno","credits") -> setOtherInfo("ptc","pune",411045) -> printAllDetails()*/
+
+package phenol_verma;
 
 class Employee {
 		String firstName, lastName, cmpName, city;
