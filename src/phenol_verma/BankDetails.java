@@ -1,5 +1,3 @@
-package phenol_verma;
-
 /*Assignment - 6 : 18th Jan'2024
 
 Rewrite yesterday's BankDetails program with following condition.
@@ -10,7 +8,8 @@ If amt asked is negative, print "Invalid amount"
 
 Case - 2. If user tries to credit more than 5000 in one go, you should print
  "You can't deposite more than 5000 rs in one go" and amount should not be credited in main balance. If credited amount is negative, print "Invalid amount".*/
- 
+package phenol_verma;
+
 class BankDetails {
 	static int balance = 1000, debitCount, creditCount, printStatementCount;
 
