@@ -1,5 +1,3 @@
-package phenol_verma;
-
 /*Assignment - 7 : 18th Jan'2024
 Write 2 methods, one method to find maximum number from 2 numbers, other to find minimum number from given 2 numbers.
 
@@ -12,6 +10,7 @@ sample input :
 num1 : 10
 num2 : 17
 output : 17 is bigger between 10 and 17.*/
+package phenol_verma;
 
 class Assignment7 {
 		
