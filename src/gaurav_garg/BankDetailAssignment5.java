@@ -1,3 +1,4 @@
+package gaurav_garg;
 class BankDetailAssignment5
 {
 	int balance = 1000;

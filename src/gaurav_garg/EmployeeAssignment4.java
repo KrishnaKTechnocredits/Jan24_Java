@@ -26,7 +26,7 @@ class EmployeeAssignment4
 		System.out.println("Employees company name = "+ cmpName );
 		System.out.println("Employees address  = "+ city +","+ pincode);
 	}
-	
+
 	public static void main(String...s)
 	{
 		EmployeeAssignment4 employeeassignment4 = new EmployeeAssignment4();
