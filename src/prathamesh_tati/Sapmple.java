@@ -1,4 +1,4 @@
-package nikita_tati;
+package prathamesh_tati;
 
 public class Sapmple {
 
