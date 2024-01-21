@@ -30,7 +30,7 @@ public class WeekdaysOrWeekends {
 				System.out.println("Wednesday");
 			else if(day == 4)
 				System.out.println("Thursday");
-			else if(day == 5)
+			else
 				System.out.println("Friday");
 		} else if(day == 6 || day == 7) {
 			System.out.println("It's Weekend");
