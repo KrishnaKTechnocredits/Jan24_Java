@@ -1,6 +1,7 @@
 /*Assignment - 2 : 16th Jan'2024
 Write a program called CalculatorTricky, all 4 methods should be parameterized and write a method that will
 print addition of answers get from all the methods.*/
+
 package pallavi_raut;
 class CalculatorTricky{
 	int totalAmt;
