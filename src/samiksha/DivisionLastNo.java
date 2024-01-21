@@ -10,7 +10,7 @@ public class DivisionLastNo {
 				count=num;
 			}
 		 }
-	System.out.println("Last no divisible by "+ startRange +" and " + endRange + " is " + count);
+	    System.out.println("Last no divisible by "+ startRange +" and " + endRange + " is " + count);
 	}
 	
 	public static void main(String[] args) {
