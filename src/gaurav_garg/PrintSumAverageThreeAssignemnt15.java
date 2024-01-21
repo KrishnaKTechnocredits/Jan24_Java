@@ -5,7 +5,7 @@ public class PrintSumAverageThreeAssignemnt15 {
 	int sum;
 	 void printnumber(int num1,int num2)
 	 {
-		 System.out.println("Number are ");
+		 System.out.println("Number are -:  ");
 		for(int i=num1 ;i<=num2;i++)
 		{
 			if (count <= 3)
