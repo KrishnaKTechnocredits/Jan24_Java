@@ -22,9 +22,11 @@ public class Assignment9B {
 
 	void printEvenNumber(int startNum, int endNum) {
 		System.out.println("Even numbers between" + startNum + " and " + endNum +  " are: ");
+		System.out.println("");
 		for (int index = startNum; index <= endNum; index++) {
 			if(index % 2 == 0) {
 				System.out.println(index);
+				System.out.println("");
 			}
 		}
 	}
