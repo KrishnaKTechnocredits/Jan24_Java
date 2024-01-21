@@ -3,7 +3,7 @@ package rohini_deshmane;
 public class NumberDivisibleBySevenThirteen {
 	
 	void printNumberDivisible(int startRange, int endRange) {
-		for(int i=startRange; i<= endRange; i++) {
+		for(int i=endRange; i>= startRange; i--) {
 			if(i%7==0) {
 				System.out.println(i +" is Divisible by "+7);
 			} else if(i%13==0) {
