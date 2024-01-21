@@ -9,10 +9,10 @@ Output : Last number divisible by 5 & 9 is 90
 public class Lastnumdivby5And9 {
 
 	void printNumDivisibleBy59(int startIndex, int endIndex) {
-		System.out.println("Last number divisible by 5 & 9 is ");
+		
 		for (int index = endIndex; index >= startIndex; index--) {
 			if (index % 5 == 0 && index % 9 == 0) {
-				System.out.println(index);
+				System.out.println("Last number divisible by 5 & 9 is " + index);
 				break;
 
 			}
