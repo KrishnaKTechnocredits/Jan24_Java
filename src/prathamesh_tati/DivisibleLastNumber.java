@@ -12,12 +12,10 @@ public class DivisibleLastNumber {
 				break;
 			}
 		}
-
 	}
 
 	public static void main(String[] args) {
 		DivisibleLastNumber divisibleLastNumber = new DivisibleLastNumber();
 		divisibleLastNumber.printLastNumberDivisible(5, 100);
 	}
-
 }
