@@ -3,6 +3,7 @@ package sveta;
 public class Temperature {
 
 	public void Celsius(int cel) {
+		
 		if(cel <= -10) {
 			System.out.println("Extreme Cold");
 		}else if(cel >= -10 && cel <= 0){
