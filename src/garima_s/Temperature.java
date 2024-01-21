@@ -14,7 +14,7 @@ package garima_s;
 		else if(temperature <=0 && temperature >= -10)
 			System.out.println("very cold");
 		else 
-		    System.out.println("Extreme cold");   	
+			System.out.println("Extreme cold");   	
 		}
 		
 	public static void main(String[] args) {
