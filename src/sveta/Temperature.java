@@ -20,7 +20,6 @@ public class Temperature {
 	}
 	
 	public static void main(String[] args) {
-
 		Temperature temp = new Temperature();
 		temp.Celsius(-11);
 		temp.Celsius(-1);
