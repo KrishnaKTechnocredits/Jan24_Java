@@ -6,6 +6,7 @@ printAllDetails() -> print all 5 instance variable.
 
 main -> setPrimaryInfo("techno","credits") -> setOtherInfo("ptc","pune",411045) -> printAllDetails()*/
 
+
 package phenol_verma;
 
 class Employee {
