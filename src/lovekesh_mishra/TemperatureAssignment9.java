@@ -23,7 +23,7 @@ class TemperatureAssignment9 {
 		temperatureAssignment9.temp(-14);
 		temperatureAssignment9.temp(-7);
 		temperatureAssignment9.temp(6);
-		temperatureAssignment9.temp(14);
+		temperatureAssignment9.temp(15);
 		temperatureAssignment9.temp(26);
 		temperatureAssignment9.temp(36);
 	}
