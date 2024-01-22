@@ -12,7 +12,7 @@ public class Assignment16 {
 				System.out.println(num);
 			}
 		}
-		System.out.println("Found " + count +" numbers whicccch are divisible by 5 and 7.");
+		System.out.println("Found " + count +" numbers which are divisible by 5 and 7.");
 		System.out.println("Sum = " +sum);
 		System.out.println("Average = " + sum/count);
 	}
