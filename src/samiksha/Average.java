@@ -6,11 +6,11 @@ public class Average {
 	int count;
 	
 	void printSumAndAvg(int startR, int endR) {
-		for(int num = startR; num <= endR; num++) {
-	       if(num % 5 == 0 && num % 7 == 0){
+	    for(int num = startR; num <= endR; num++) {
+	        if(num % 5 == 0 && num % 7 == 0){
 	    	   sum = sum + num;
 	    	   count++;
-	       }
+	        }
 	    }
 		int avg = sum/count;
 		System.out.println("sum is " + sum);
