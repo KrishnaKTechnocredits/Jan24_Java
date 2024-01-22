@@ -16,5 +16,4 @@ public class DivisibleBy5And9 {
 		DivisibleBy5And9 divisibleBy5And9 = new DivisibleBy5And9();
 		divisibleBy5And9.printNumberInfo(5, 100);
 	}
-
 }
