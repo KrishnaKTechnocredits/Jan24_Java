@@ -9,7 +9,6 @@ package rohit_sutar;
  */
 
 public class Assignment11 {
-
 	void printNumbersDivisible(int startIndex, int endIndex) {
 		System.out.println("Below numbers are divisible by 3 and 5");
 		for(int i = startIndex ; i <=endIndex ; i++) {
@@ -18,7 +17,7 @@ public class Assignment11 {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment11 assignment11 = new Assignment11();
 		assignment11.printNumbersDivisible(5, 40);
