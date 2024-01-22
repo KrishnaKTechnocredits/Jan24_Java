@@ -4,7 +4,6 @@ class Calculator
 {	
 	void add(int num1,int num2)
 	{
-
 		System.out.println("Num1 is " + num1 + ", Num2 is "+ num2 + ", Addition = "+ (num1+num2) );
 	}
 	
@@ -12,9 +11,9 @@ class Calculator
 	{
 				System.out.println("Num1 is " + num1 +", Num2 is " + num2 +", Subtraction = "+ (num1-num2) );
 	}
+	
 	void multiply(int num1,int num2)
 	{
- 
 		System.out.println("Num1 is "+ num1 +", Num2 is "+ num2 +", Multiplication = "+ (num1*num2) );
 	}
 	

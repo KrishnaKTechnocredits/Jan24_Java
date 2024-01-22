@@ -7,25 +7,22 @@ class CalculatorTricky
 	void add(int num1,int num2)
 	{
 		totalOfAll = totalOfAll + (num1 +num2);
-		
 	}
 	
 	void subtract(int num1,int num2)
 	{
 		totalOfAll= totalOfAll + (num1-num2);
-		
 	}
 	void multiply(int num1,int num2)
 	{
 		totalOfAll = totalOfAll + (num1*num2);
-		
 	}
 	
 	void divide(int num1,int num2)
 	{
 		totalOfAll = totalOfAll + (num1/num2);
-		
 	}
+	
 	void sumOfAll()
 	{
 		System.out.println(" Total of All Functions = " + totalOfAll);
