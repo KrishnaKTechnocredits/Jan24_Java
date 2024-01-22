@@ -5,9 +5,17 @@ public class Assignment11 {
 	void numDivBy7_13(int strNum, int endNum) {
 		System.out.println("Divisible by 7 or 13, numbers are: ");
 		for(int index=endNum; index>strNum; index--) {
-			if(index%7==0 || index%13==0) {
+			if(index%7==0 && index%13==0) {
 				System.out.println();
-				System.out.println(index);
+				System.out.println(index + " is divisible by 13 & 7");
+			}
+			else if(index%7==0) {
+				System.out.println();
+				System.out.println(index + " is divisible by 7");
+			}
+			else if(index%13==0) {
+				System.out.println();
+				System.out.println(index + " is divisible by 13 ");
 			}
 		}
 	}
