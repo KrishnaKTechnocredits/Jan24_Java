@@ -7,7 +7,7 @@ public class SumAndAverage {
 		System.out.println("Numbers are");
 		for(int i = startRange; i<= endRange; i++){
 			if(i%5 == 0 && i%7 == 0) {
-				sum = sum +1;
+				sum = sum +i;
 				count++;
 				System.out.println(i);
 			}
