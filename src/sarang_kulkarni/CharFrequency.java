@@ -13,7 +13,7 @@ public class CharFrequency {
 	public void charfreq(String str){
 		int len=str.length();
 		for (int i=0;i<len-1;i++) {
-			if(str.charAt(i)=='t') {
+			if(str.charAt(i)=='t'){
 				count++;
 			}
 		}
