@@ -17,8 +17,3 @@ public class StringInReverseOrder {
 		stringInReverseOrder.reverseOrderString("techno");
 	}
 }
-
-/*
- * 
- * input : techno output : o n h c e t
- */
