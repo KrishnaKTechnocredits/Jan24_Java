@@ -1,3 +1,13 @@
+/*Assignment - 1 : 15th Jan'2024
+
+Write a Calculator program having 4 method to perform addition, subtraction, multiplication and division with 2 instance variables
+
+output should be: 
+num1 is 20, num2 is 30, addition = 50
+num1 is 50, num2 is 22, subtraction = 28
+num1 is 200, num2 is 10, division = 20
+num1 is 50, num2 is 5, multiplication = 250
+*/
 package pallavi_raut;
 class CalculatorParam{
 

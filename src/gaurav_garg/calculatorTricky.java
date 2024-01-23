@@ -1,3 +1,5 @@
+package gaurav_garg;
+
 class CalculatorTricky
 {
 	int sum;

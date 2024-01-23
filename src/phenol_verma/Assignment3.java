@@ -1,5 +1,3 @@
-package phenol_verma;
-
 /*Assignment - 3 : 16th Jan'2024
 Write a program that perform below operations
 
@@ -14,6 +12,7 @@ Debit -> 700
 
 Output :
 printBalance -> 800*/
+package phenol_verma;
 
 class Assignment3 {
 		static int intBalance = 1000;

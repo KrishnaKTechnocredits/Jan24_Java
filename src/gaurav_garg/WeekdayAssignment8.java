@@ -1,4 +1,5 @@
 package gaurav_garg;
+
 class WeekdayAssignment8
 {
 	void day(int dayindex)
