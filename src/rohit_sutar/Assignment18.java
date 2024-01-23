@@ -10,9 +10,10 @@ public class Assignment18 {
 		System.out.println("Entered String is : "+inputString);
 		int length = inputString.length()-1;
 		System.out.println("Length of entered string is : "+length);
+		System.out.println("Given String in Reverse Order : ");
 		for(int i = length ; i > 0 ; i--){
 			char ch = inputString.charAt(i);
-			System.out.println("Given String in Reverse Order : "+ch);
+			System.out.println(ch);
 		}
 	}
 	
