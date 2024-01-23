@@ -14,7 +14,6 @@ public class StringEx1 {
 	
 	public static void main(String[] args) {
 		StringEx1 stringEx1 = new StringEx1();
-		stringEx1.printAllChar("technocredits", 't');
-		String str = "Hi";
+		stringEx1.printAllChar("techno", 't');
 	}
 }
