@@ -29,7 +29,7 @@ class Temperature{
 			System.out.println("It's " + tempValue + " celcius. Warm!");
 		}
 		else
-			System.out.println("It's " + tempValue + " celcius. It's a Hot!");
+			System.out.println("It's " + tempValue + " celcius.It's a Hot!");
 		}	
 
 	public static void main(String[] args){
