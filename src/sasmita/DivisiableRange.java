@@ -9,11 +9,11 @@ public class DivisiableRange {
 				if (count <= 3) {
 				 System.out.println(i);
 				 count++;
-			}
-			else
-				break;
-		}
-		}
+				}
+			    else
+				break;	
+		    } 
+	   }
 	}
 	public static void main(String[]args){
 		DivisiableRange div = new DivisiableRange();
