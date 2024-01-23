@@ -5,13 +5,15 @@ public class AverageAndSum {
 	void printSumAverage(int startIndex, int endIndex){
 		int sum=0;
 		int count=0;
-		int average;
+		int average=0;
 		for(int num = startIndex; num <= endIndex; num++) {
-			if(num % 5 == 0 && num % 7 == 0)
+			if(num % 5 == 0 && num % 7 == 0) {
 				sum = sum + num;
 				count++;
+				average = sum / count;
+			}
 		}
-		average = (sum / count);
+		
 		System.out.println("Found 3 numbers which are divisible by 5 & 7 \n" +"sum = "+ sum+"\nAverage = "+ average);
 	}
 	
