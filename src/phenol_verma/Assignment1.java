@@ -1,3 +1,5 @@
+package phenol_verma;
+
 /*Assignment - 1 : 15th Jan'2024
 
 Write a Calculator program having 4 parameterized method to perform addition, subtraction, multiplication and division.
@@ -7,8 +9,6 @@ num1 is 20, num2 is 30, addition = 50
 num1 is 50, num2 is 22, subtraction = 28
 num1 is 200, num2 is 10, division = 20
 num1 is 50, num2 is 5, multiplication = 250*/
-
-package phenol_verma;
 
 class Assignment1 {
 	void addition(int num1, int num2) {
