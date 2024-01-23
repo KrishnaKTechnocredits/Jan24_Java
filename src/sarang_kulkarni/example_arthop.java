@@ -2,7 +2,7 @@ package sarang_kulkarni;
 
 
 
-public class ArithmaticOeration {
+public class example_arthop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
