@@ -4,6 +4,7 @@ public class First3NumDiv3And4 {
 	int count = 0;
 
 	void numberRange(int firstNum, int lastNum) {
+		System.out.println("First 3 numbers divisible by 3 and 4 is");
 		for (int num = firstNum; num <= lastNum; num++) {
 			if (num % 3 == 0 && num % 4 == 0) {
 				System.out.println(num);
