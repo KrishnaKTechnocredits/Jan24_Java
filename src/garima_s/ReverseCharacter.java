@@ -3,7 +3,7 @@ package garima_s;
 public class ReverseCharacter {
 
 	void printCharacter(String value) {
-		for (int index = (value.length()-1); index >= 0; index--){
+		for (int index = (value.length() - 1); index >= 0; index--) {
 			System.out.println(value.charAt(index));
 		}
 	}
