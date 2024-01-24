@@ -4,7 +4,6 @@ class FrequencyCharacter {
 	void printCharacter(String value, char targetCharacter) {
 		int count = 0;
 		for (int index = 0; index < value.length(); index++) {
-			//System.out.println(value.charAt(index));
 			char ch = value.charAt(index);
 			if (ch == targetCharacter) {
 				count++;
