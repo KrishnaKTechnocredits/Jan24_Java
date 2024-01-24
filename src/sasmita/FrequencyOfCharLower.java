@@ -13,7 +13,7 @@ public class FrequencyOfCharLower {
 		}
 		System.out.println("Frequency of " + ch +" in technocrediTs teaches Technology is " +count);
 	}
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		FrequencyOfCharLower freq= new FrequencyOfCharLower();
 		freq.frequencyofchar("technocrediTs teaches Technology",'t');
 	}
