@@ -3,7 +3,7 @@ package sasmita;
 public class ReverseofString {
 	
 	void reveseString(String input) {
-		for(int index=input.length()-1; index>=0; index--){
+		for(int index=(input.length()-1); index>=0; index--){
 			System.out.println(input.charAt(index));
 		}
 	}
