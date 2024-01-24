@@ -1,6 +1,6 @@
 package shramika_vaidya;
 
-class StringExample3 {
+class StringExample4 {
 
 	void printAllCharacter(String input) {
 		for (int index = input.length() - 1; index >= 0; index--) {
@@ -9,7 +9,7 @@ class StringExample3 {
 	}
 
 	public static void main(String[] args) {
-		StringExample3 stringExample3 = new StringExample3();
-		stringExample3.printAllCharacter("Techno");
+		StringExample4 stringExample4 = new StringExample4();
+		stringExample4.printAllCharacter("Techno");
 	}
 }
