@@ -1,3 +1,6 @@
+//Assignment 20 :  write a program which print the first 5 even numbers.
+//[using for loop, while loop, do while loop]
+
 package padmaja;
 
 public class FirstFiveEvenNos {
