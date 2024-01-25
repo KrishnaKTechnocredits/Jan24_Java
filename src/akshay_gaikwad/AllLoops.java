@@ -43,6 +43,5 @@ public class AllLoops {
 		allloops.whileLoop5Even(5);
 		System.out.println("---------------");
 		allloops.doWhileLoop5Even(5);
-
 	}
 }
