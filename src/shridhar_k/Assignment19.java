@@ -18,5 +18,4 @@ public class Assignment19 {
 		Assignment19 assignment19 = new Assignment19();
 		assignment19.frequencyOfChar("technocrediTs teaches Technology.", 't');
 	}
-
 }
