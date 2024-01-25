@@ -4,7 +4,7 @@ public class FrequencyOfCharacter {
 	
 	void printFrequencyOfCharacter(String str, char ch) {
 		int count=0;
-		str= str.toLowerCase();
+		str = str.toLowerCase();
 		for(int index=0; index<str.length(); index++) {
 			char currentChar = str.charAt(index);
 			if(currentChar == ch)
