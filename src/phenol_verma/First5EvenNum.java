@@ -1,3 +1,9 @@
+/*Assignment 20 : 25th Jan'2024
+1. write a program which print the first 5 even numbers.
+[using for loop, while loop, do while loop]
+
+Note: in single Java create 3 different methods*/
+
 package phenol_verma;
 
 public class First5EvenNum {
