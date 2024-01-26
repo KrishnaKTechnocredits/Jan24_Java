@@ -25,10 +25,9 @@ public class WhileDowhileLoop {
 				if(count >= 5) {
 					break;
 				}
-			}
-			i++;
-			}	
+			}i++;
 		}	
+	}	
 			
 	void doWhileLoop(int num1, int num2) {
 			int count = 0;
