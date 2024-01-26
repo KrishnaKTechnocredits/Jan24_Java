@@ -15,7 +15,7 @@ public class Assignment16 {
 		System.out.println("sum :" + sum);
 		System.out.println("Average : "+ (sum/count));		
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment16 assignment16=new Assignment16();
 		System.out.println("Numbers are :");
