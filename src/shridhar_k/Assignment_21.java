@@ -2,7 +2,6 @@
 package shridhar_k;
 
 public class Assignment_21 {
-	int counter = 0;
 
 	void sumOFNum(int reqSum, int divNum) {
 		int counter = 0;
