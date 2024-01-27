@@ -11,7 +11,7 @@ public class ReturnEx {
 			}
 		}
 		System.out.println(" frequency of " + ch + " in technocredits is  " + count);	
-	}
+}
 	
 	public static void main(String[] args){
 		ReturnEx returnEx = new ReturnEx();
