@@ -19,5 +19,4 @@ public class MinNumGetSum {
 		MinNumGetSum minnumgetsum = new MinNumGetSum();
 		minnumgetsum.minNumGetSum(150);
 	}
-
 }
