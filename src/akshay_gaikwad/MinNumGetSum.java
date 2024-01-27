@@ -8,7 +8,7 @@ public class MinNumGetSum {
 		int num = 1;
 		while(sum < input) {
 			if (num % 6 == 0) {
-				sum = sum + num;
+				sum += num;
 				count++;
 			}
 			num++;
