@@ -9,7 +9,7 @@ class EvenNumbers {
 			if (num % 2 == 0) {
 				count++;
 				System.out.println(num);
-		    }
+			}
 			if (count == 5)
 				break;
 		}
@@ -21,7 +21,7 @@ class EvenNumbers {
 		int num = startInput;
 		while (num <= endInput) {
 			num++;
-            if (num % 2 == 0) {
+			if (num % 2 == 0) {
 				count++;
 				System.out.println(num);
 			}
