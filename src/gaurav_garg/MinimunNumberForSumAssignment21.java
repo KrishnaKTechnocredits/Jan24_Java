@@ -13,7 +13,7 @@ public class MinimunNumberForSumAssignment21 {
 			}
 			numb1++;
 		}
-		System.out.println(count - 1);
+		System.out.println(count );
 	}
 
 	public static void main(String[] args) {
