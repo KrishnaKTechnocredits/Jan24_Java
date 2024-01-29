@@ -9,7 +9,7 @@ output : hnordis
 public class PrintCharFrequencyWithMethod {
 	
 	void printCharFrequency(String str) {
-		char ch;
+		char ch; 
 		for(int i=0; i <str.length(); i++) {
 			ch = str.charAt(i);
 			if(str.indexOf(ch)==str.lastIndexOf(ch)) {
