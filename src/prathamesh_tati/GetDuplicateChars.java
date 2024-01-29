@@ -1,3 +1,8 @@
+/*Print all the duplicate characters from the given String.
+
+input = "aakanksha";
+output : ak */
+
 package prathamesh_tati;
 
 public class GetDuplicateChars {
