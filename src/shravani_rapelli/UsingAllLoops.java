@@ -45,11 +45,11 @@ public class UsingAllLoops {
 	public static void main(String[] args) {
 		UsingAllLoops usingAllLoops = new UsingAllLoops();
 		System.out.println("Output using forLoop");
-		usingAllLoops.forLoop(10, 50);
+		usingAllLoops.forLoop(20, 50);
 		System.out.println("Output using whileLoop");
-		usingAllLoops.whileLoop(10, 50);
+		usingAllLoops.whileLoop(20, 50);
 		System.out.println("Output using doWhileLoop");
-		usingAllLoops.doWhileLoop(10, 50);
+		usingAllLoops.doWhileLoop(20, 50);
 	}
 }
 
