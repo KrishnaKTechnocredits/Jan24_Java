@@ -2,6 +2,7 @@ package garima_s;
 
 public class RemoveVowels {
 	void printRemoveVowels(String value) {
+		System.out.print("Remove the Vowels from " + value + " : ");
 		for (int index = 0; index < value.length(); index++) {
 			char ch = value.charAt(index);
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
