@@ -7,10 +7,9 @@ public class FrequencyOfCharacter {
 
 	int count;
 
-	void characterFrequency() {
-		String str = "technocredits";
+	void characterFrequency(String str, char ch) {
 		for (int index = 0; index < str.length(); index++) {
-			if (str.charAt(index) == 't')
+			if (str.charAt(index) == ch)
 				count++;
 		}
 		System.out.println("frequency of t in technocredits is " + count +".");
@@ -18,6 +17,6 @@ public class FrequencyOfCharacter {
 
 	public static void main(String[] args) {
 		FrequencyOfCharacter frequencyOfCharacter = new FrequencyOfCharacter();
-		frequencyOfCharacter.characterFrequency();
+		frequencyOfCharacter.characterFrequency("technocredits", 't');
 	}
 }
