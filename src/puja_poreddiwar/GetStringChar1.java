@@ -13,7 +13,7 @@ public class GetStringChar1 {
 	}
 
 	public static void main(String[] agrs) {
-		GetStringChar getChar = new GetStringChar();
+		GetStringChar1 getChar = new GetStringChar1();
 		getChar.GetCharFreq("technocredits");
 	}
 }
