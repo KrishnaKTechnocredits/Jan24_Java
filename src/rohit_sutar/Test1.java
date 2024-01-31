@@ -11,11 +11,12 @@ public class Test1 {
 				sum = sum + Character.getNumericValue(currentChar);
 			}
 		}
-		System.out.println(sum);
+		System.out.println("Addition of all digits in given String is : "+sum);
 	}
 
 	public static void main(String[] args) {
 		Test1 test1 = new Test1();
 		test1.calculateDigit("te3ch4nocred8it");
+		test1.calculateDigit("technocredit");
 	}
 }
