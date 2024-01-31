@@ -12,7 +12,7 @@ public class FrequencyOfCharacter{
 		}
 		System.out.print("Frequency of " +t+" in technocredits is " +count);
 	}
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		FrequencyOfCharacter freq = new FrequencyOfCharacter();
 		freq.frequency("technocredits", 't');
 	}
