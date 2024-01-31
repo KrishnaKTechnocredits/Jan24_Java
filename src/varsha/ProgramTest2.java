@@ -1,12 +1,12 @@
 package varsha;
 
 public class ProgramTest2 {
-	
+
 	void printSumofDigit(String text) {
 		int sum = 0;
-		for (int i = 0; i<text.length(); i++) {
+		for (int i = 0; i < text.length(); i++) {
 			char ch = text.charAt(i);
-			if(Character.isDigit(ch)) {
+			if (Character.isDigit(ch)) {
 				sum = sum + Character.getNumericValue(ch);
 			}
 		}
@@ -14,7 +14,7 @@ public class ProgramTest2 {
 	}
 
 	public static void main(String[] args) {
-		ProgramTest1 programTest1 = new ProgramTest1();
-		programTest1.printSumOfDigit("technocredits");
+		ProgramTest2 programTest2 = new ProgramTest2();
+		programTest2.printSumofDigit("technocredits");
 	}
 }
