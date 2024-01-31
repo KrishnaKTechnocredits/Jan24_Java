@@ -8,8 +8,9 @@ public class Assignment27 {
 			char ch = inputString.charAt(i);
 			boolean flag = Character.isUpperCase(ch);
 			if (flag)
-				inputString = inputString.replace(String.valueOf(ch), "");
+				inputString = inputString.replace(String.valueOf(ch), "*");
 		}
+		inputString = inputString.replace("*","");
 		System.out.println("output: " + inputString);
 	}
 
