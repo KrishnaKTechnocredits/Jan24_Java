@@ -19,6 +19,7 @@ public class SumOfDigit {
 
 	public static void main(String[] args) {
 		new SumOfDigit().getNumValue("te3ch4nocred8its");
+		new SumOfDigit().getNumValue("technocredits");
 	}
 
 }
