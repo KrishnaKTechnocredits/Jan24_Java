@@ -12,7 +12,7 @@ public class SumOfOddDigits {
 				}
 			}
 		}
-		System.out.println("Sum of All digits in " + input + " is : " + sum);
+		System.out.println("Sum of All Odd digits in " + input + " is : " + sum);
 	}
 	public static void main(String[] args) {
 		SumOfOddDigits sumofodddigits = new SumOfOddDigits();
