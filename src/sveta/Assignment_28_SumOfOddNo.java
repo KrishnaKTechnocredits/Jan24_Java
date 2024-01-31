@@ -5,7 +5,7 @@ output : 10
 
 input : te2chn6ocred8its
 output : 0*/
-  package sveta;
+ package sveta;
 
 
 public class Assignment_28_SumOfOddNo {
@@ -25,8 +25,8 @@ public class Assignment_28_SumOfOddNo {
 		System.out.println(sum);
 	}
 	public static void main(String[] args) {
-		
-		sumOperation("te2chn6ocred8it");
+		sumOperation("te2chn6ocred8its");
+		sumOperation("te3ch4noc7red8its");
 	}
 
 }
