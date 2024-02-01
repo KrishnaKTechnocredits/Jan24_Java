@@ -17,6 +17,7 @@ public class PrimeNumberSumWithRange {
 		for(int i=2; i<number; i++) {
 			if(number%i==0) {
 				flag = false;
+				break;
 			}
 		}
 		return flag;
