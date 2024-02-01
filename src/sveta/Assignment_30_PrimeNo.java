@@ -6,7 +6,9 @@ output : total prime numbers in the given range is xx
 package sveta;
 
 public class Assignment_30_PrimeNo {
+	
 	static int count;
+	
 	public static int isPrimeNo(int num) {
 		int input=0;
 		boolean flag = true;
@@ -15,7 +17,6 @@ public class Assignment_30_PrimeNo {
 				flag = false;
 				break;
 			}
-			
 		}
 		if(flag==true) {
 			count++;
@@ -36,41 +37,4 @@ public class Assignment_30_PrimeNo {
 		Assignment_30_PrimeNo prime = new Assignment_30_PrimeNo();
 		prime.sumOfPrime(50,100);
 	}
-	
-	
-	
-	
-
-//	public static int isNum(int num) {
-//		int sum = 0;
-//		boolean flag= true;
-//		for(int i=2; i<=num; i++) {
-//			if(num%i==0) {
-//				System.out.println(num +" is No prime");
-//				flag=false;
-//				//sum +=num;
-//				break;
-//			}
-//			if(flag==true) {
-//				System.out.println(num +"is prime No");
-//				sum+=num;
-//				System.out.println("sum is "+sum);
-//			}
-//		}
-//		
-//		return sum;
-//	}
-//	
-//	public static void sumOfPrime(int start, int end) {
-//		int sum=0;
-//		for(int i=start;i<end;i++){
-//			sum +=isNum(i);
-//		}
-//		System.out.println("sum is "+sum);
-//	}
-//	
-//	public static void main(String[] args) {
-//		sumOfPrime(50,100);
-	//}
-
 }
