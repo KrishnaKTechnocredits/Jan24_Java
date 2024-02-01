@@ -1,5 +1,5 @@
 /*Assignment - 27 : 30th Jan'24
-Remove all Uppercase character from given String. 
+Remove all the vowels from given String.
 */
 package shraddha;
 
