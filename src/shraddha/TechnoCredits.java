@@ -8,6 +8,7 @@ class TechnoCredits
 			System.out.println(input.charAt(index-1));
 		}
 	}
+	
 	public static void main(String[] args){
 		TechnoCredits technoCredits = new TechnoCredits();
 		technoCredits.tech("TechnoCredits");
