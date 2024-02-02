@@ -13,7 +13,7 @@ public class LastConsonantFromString {
 		char lastConsonantChar = '_';
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.charAt(index);
-			if (ch != 'a' || ch != 'e' || ch != 'i' || ch != 'o' || ch != 'u') {
+			if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
 				if (str.indexOf(ch) == str.lastIndexOf(ch)){
 					lastConsonantChar = str.charAt(index);
 				}
