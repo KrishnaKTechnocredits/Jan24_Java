@@ -10,11 +10,8 @@ class PrintLastConsonant{
 		char ch1=1;
 		for (int i=0;i<str.length();i++){
 			char ch = str.charAt(i);
-			if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
-			}
-				else{
+			if(ch!='a' && ch!='e' && ch!='i' && ch!='o' && ch!='u')
 					ch1 = ch;
-				}
 		}
 		System.out.println("Last consonant from given String is "+ch1);
 	}
