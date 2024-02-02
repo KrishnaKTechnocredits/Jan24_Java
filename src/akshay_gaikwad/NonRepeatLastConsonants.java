@@ -8,7 +8,7 @@ public class NonRepeatLastConsonants {
 			if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
 				if (str.lastIndexOf(ch) == str.indexOf(ch)) {
 					lastCh = ch;
-					return lastCh;
+					break;
 				}
 			}
 		}

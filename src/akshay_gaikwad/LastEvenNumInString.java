@@ -9,7 +9,7 @@ public class LastEvenNumInString {
 				int value = Character.getNumericValue(ch);
 				if (value % 2 == 0) {
 					evenNum = value;
-					return evenNum;
+					break;
 				}
 			}
 		}
