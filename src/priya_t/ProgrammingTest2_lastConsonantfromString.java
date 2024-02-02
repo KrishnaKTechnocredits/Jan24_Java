@@ -1,18 +1,24 @@
 package priya_t;
 
 public class ProgrammingTest2_lastConsonantfromString {
-	String input = "aakansha";
 
-	void printChar(String input, char targetChar) {
-		for (int index = 0; index < input.length(); index++) {
-			char ch = input.charAt(index);
-			if (ch == targetChar);
+	public void printchar(String str) {
+		str = str.toLowerCase();
+		char c = ' ';
+		int count = 0;
+		for (int i = str.length() - 1; i >= 0; i--) {
+			char ch = str.charAt(i);
+			if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
+				if (str.indexOf(ch) == str.lastIndexOf(ch)) {
+					System.out.println(ch);
+					break;
+				}
+			}
 		}
-		System.out.println("Last consonant from the given string is:" + targetChar);
 	}
 
 	public static void main(String[] args) {
 		ProgrammingTest2_lastConsonantfromString lastno = new ProgrammingTest2_lastConsonantfromString();
-		lastno.printChar("aakansha", 'h');
+		lastno.printchar("aakansha");
 	}
 }
