@@ -6,7 +6,7 @@ public class ProgramTest3 {
 		for (int index = input.length()-1; index >= 0; index--) {
 			char ch = input.charAt(index);
 			if (Character.isDigit(ch)) {
-				if (ch % 2 == 0) {
+				if (Character.getNumericValue(ch) % 2 == 0) {
 					System.out.println(ch + " : is an even number");
 					break;
 				}
