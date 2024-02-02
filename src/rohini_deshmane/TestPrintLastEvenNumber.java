@@ -1,5 +1,10 @@
 package rohini_deshmane;
+/*
+ * Print last even number from a String
 
+input : te3ch4nocred8its
+output : 8
+ */
 public class TestPrintLastEvenNumber {
 	
 	void printLastEvenNumber(String str) {

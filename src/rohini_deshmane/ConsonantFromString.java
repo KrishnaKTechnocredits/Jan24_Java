@@ -1,10 +1,14 @@
 package rohini_deshmane;
 
 public class ConsonantFromString {
-	//Z, B, T, G, and H 
+/*
+ * Print last consonant from the string
+
+input : aakansha
+output : h
+ */
 	void printLastConsonant(String str) {
 		char consonant='-', ch;
-		//char lastConsonantChar;
 		for(int i=0; i< str.length(); i++) {
 			ch = str.charAt(i);
 			if(ch!='a' || ch!='A' || ch != 'e' || ch != 'E' || ch !='I' || 
