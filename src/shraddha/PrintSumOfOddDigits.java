@@ -12,8 +12,8 @@ class PrintSumOfOddDigits{
 					if(temp%2!=0){
 						sum = sum + temp;
 					}
+			}
 		}
-	}
 		System.out.println("Sum: "+sum);
 	}
 	
