@@ -15,7 +15,7 @@ public class Assignment_36_DivBy_3_5 {
 				allsum += arr[i];
 		}
 		System.out.println("div by 3 "+sumDivBy3);
-		System.out.println("0div by 5 "+sumDivBy5);
+		System.out.println("div by 5 "+sumDivBy5);
 		System.out.println("sum for both "+allsum);
 		
 	}
