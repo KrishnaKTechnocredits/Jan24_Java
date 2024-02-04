@@ -1,3 +1,5 @@
+package lovekesh_mishra;
+
 class PrintLastDigitTest2{
 	char temp;
 
