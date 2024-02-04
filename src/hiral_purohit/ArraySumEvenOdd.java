@@ -5,7 +5,7 @@ public class ArraySumEvenOdd {
 	void printSumOfOddEven(int[] value) {
 		int sum1 = 0;
 		int sum2 = 0;
-		int diff = 0;
+
 		for (int index = 0; index < value.length; index++) {
 			if (value[index] % 2 == 0) {
 				sum1 = sum1 + value[index];
@@ -13,10 +13,9 @@ public class ArraySumEvenOdd {
 				sum2 = sum2 + value[index];
 		}
 		if (sum1 > sum2) {
-			diff = sum1 - sum2;
+			System.out.println("Positive diiferance: " + sum1 + " - " + sum2 + " = " + (sum1 - sum2));
 		} else
-			diff = sum2 - sum1;
-		System.out.println(sum1 + " - " + sum2 + " = " + diff);
+			System.out.println("Positive diiferance: " + sum2 + " - " + sum1 + " = " + (sum1 - sum2));
 	}
 
 	public static void main(String[] args) {
