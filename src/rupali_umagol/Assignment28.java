@@ -16,10 +16,8 @@ public class Assignment28 {
 		System.out.println("Sum of odd digits :" + sum);
 	}
 
-
 	public static void main(String[] args) {
 		Assignment28 assignment28=new Assignment28();
 		assignment28.printSum("te3ch4noc7red8its");
-		
 	}
 }
