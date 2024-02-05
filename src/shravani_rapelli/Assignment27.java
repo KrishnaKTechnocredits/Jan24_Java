@@ -12,7 +12,7 @@ public class Assignment27 {
 			}
 		}
 		String temp = str.replace("*","");
-		System.out.println(temp);
+		System.out.println(temps);
 	}
 	
 	public static void main(String[] args) {
