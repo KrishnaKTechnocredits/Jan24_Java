@@ -29,6 +29,7 @@ public class MaxFrequencyCharacter {
 	
 	public static void main(String[] args) {
 		MaxFrequencyCharacter maxFrechar = new MaxFrequencyCharacter();
+		maxFrechar.printmaxFrequencyChar("aakanksha");
 		maxFrechar.printmaxFrequencyChar("teecccchnoceredites");
 	}
 
