@@ -14,6 +14,6 @@ public class StringExtractEx2 {
 	}
 
 	public static void main(String[] args) {
-		new StringExtractEx2().getStringExtract("Aas-H3v7i");
+		new StringExtractEx2().getStringExtract("AasH3v7i");
 	}
 }
