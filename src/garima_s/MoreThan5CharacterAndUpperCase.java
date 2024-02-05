@@ -14,7 +14,7 @@ public class MoreThan5CharacterAndUpperCase {
 		boolean temp = false;
 		for (int index = 0; index < names.length; index++) {
 			temp = isStartWithUpperCase(names[index]);
-			if (names[index].length() <= 5 && temp == true) {
+			if (names[index].length() > 5 && temp == true) {
 				System.out.println(names[index]);
 			}
 		}
