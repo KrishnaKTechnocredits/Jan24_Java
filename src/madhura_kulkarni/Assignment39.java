@@ -12,6 +12,7 @@ package madhura_kulkarni;
 public class Assignment39 {
 	void printNamesWithUpperCase(String[] str) {
 		String input="";
+		System.out.println("The names from given array having length more than 5 characters and should start with upper case are:");
 		for(int i=0; i<str.length;i++) {
 			 input=str[i];
 			 char ch= input.charAt(0);
