@@ -4,8 +4,9 @@ PhenolV_Assignment_44
 Print all the names from given array having length more than 5 characters and should start with upper case.
 input: {"Aashvi", "sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno"}
 Output ; Aashvi
-		 Sameer
-		 Techno
+Sveta
+Anand
+Techno
  */
 package phenol_verma;
 
