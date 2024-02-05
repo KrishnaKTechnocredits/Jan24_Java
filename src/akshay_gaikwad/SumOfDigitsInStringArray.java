@@ -20,7 +20,6 @@ public class SumOfDigitsInStringArray {
 	}
 	public static void main(String[] args) {
 		String [] arr = {"Aakansha", "Aas3hvi", "Isha", "I2sh4a4n"};
-		new SumOfDigitsInStringArray().printSumOfDigitInString(arr);
-		
+		new SumOfDigitsInStringArray().printSumOfDigitInString(arr);		
 	}
 }
