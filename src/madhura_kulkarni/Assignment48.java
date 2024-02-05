@@ -17,12 +17,12 @@ public class Assignment48 {
 	void printString(String str) {
 		System.out.println("Input string is: " + str);
 		String answer = "";
-		System.out.println("Output string after extracting digits & special characters from it :");
+		System.out.print("Output string after extracting digits & special characters from it : ");
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			if (Character.isUpperCase(ch) == false && Character.isLowerCase(ch) == false)
 				answer = answer + ch;
 		}
-		System.out.println(answer);
+		System.out.print(answer);
 	}
 }
