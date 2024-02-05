@@ -6,7 +6,7 @@ public class StringExtractEx2 {
 		String str3 = "";
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
-			if (Character.isUpperCase(ch) || Character.isLowerCase(ch)) {
+			if (Character.isDigit(ch)) {
 				str3 = str3 + ch;
 			}
 		}
