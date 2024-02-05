@@ -22,15 +22,20 @@ public class MaxFrequencyCharacter {
 			if(count > maxCount) {
 				maxCount = count;
 				newCh = ch;
-			}
+			} 
 		}
-		System.out.println(str+" -->  "+newCh+" --> "+maxCount);
+		if(maxCount == 1) {
+			System.out.println(str +" having all unique characters");
+		} else {
+			System.out.println(str+" -->  "+newCh+" --> "+maxCount);
+		}
 	}
 	
 	public static void main(String[] args) {
 		MaxFrequencyCharacter maxFrechar = new MaxFrequencyCharacter();
 		maxFrechar.printmaxFrequencyChar("aakanksha");
 		maxFrechar.printmaxFrequencyChar("teecccchnoceredites");
+		maxFrechar.printmaxFrequencyChar("Maulik");
 	}
 
 }
