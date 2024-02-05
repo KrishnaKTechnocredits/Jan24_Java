@@ -26,7 +26,7 @@ public class Assignment31 {
 			}
 		}
 		if(maxFreq == 1) {
-			System.out.println("Input string '" + inputStr + "' has all unique character.");
+			System.out.println( inputStr + " having all unique characters.");
 		}
 		else
 			System.out.println("Output: " + inputStr + " -> " + charOfMaxFreq + " -> " + maxFreq);
