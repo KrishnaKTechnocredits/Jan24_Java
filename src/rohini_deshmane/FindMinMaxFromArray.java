@@ -1,5 +1,11 @@
 package rohini_deshmane;
+/*
+ * 
+Return the max & min number from given array.
 
+input : [10,20,50,60,30]
+output : min : 10 max : 60
+ */
 public class FindMinMaxFromArray {
 
 	int findMaxNumber(int[] arr) {
