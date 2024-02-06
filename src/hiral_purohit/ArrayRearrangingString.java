@@ -10,14 +10,8 @@ public class ArrayRearrangingString {
 			char ch = str.charAt(index);
 			if (Character.isUpperCase(ch))
 				str1 = str1 + ch;
-		}
-		for (int index = 0; index < str.length(); index++) {
-			char ch = str.charAt(index);
 			if (Character.isLowerCase(ch))
 				str2 = str2 + ch;
-		}
-		for (int index = 0; index < str.length(); index++) {
-			char ch = str.charAt(index);
 			if (Character.isDigit(ch))
 				str3 = str3 + ch;
 		}
