@@ -6,7 +6,7 @@ public class ArrayEx16 {
 		String str = "";
 		for (int i = 0; i < input.length(); i++) {
 			char ch = input.charAt(i);
-			if (!Character.isDigit(ch)) {
+			if (Character.isDigit(ch)) {
 				str = str + ch;
 			}
 		}
