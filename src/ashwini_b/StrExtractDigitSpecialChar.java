@@ -12,7 +12,10 @@ public class StrExtractDigitSpecialChar {
 		String str = "";
 		for(int index = 0 ; index < inputStr.length() ; index++) {
 			char ch = inputStr.charAt(index);
-			if(Character.isDigit(ch) || Character.isAlphabetic(index) ) {
+			if(Character.isDigit(ch)  ) {
+				str = str + ch;
+			}
+			else if (!Character.isUpperCase(ch) && !Character.isLowerCase(ch)) {
 				str = str + ch;
 			}
 		}
