@@ -12,7 +12,7 @@ public class ArrayEx8 {
 	}
 
 	public static void main(String[] args) {
-		String[] str = { "Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno" };
+		String[] str = { "Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno", "phenol" };
 		new ArrayEx8().printString(str);
 	}
 }
