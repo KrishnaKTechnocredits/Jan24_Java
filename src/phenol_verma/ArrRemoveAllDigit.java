@@ -20,15 +20,24 @@ public class ArrRemoveAllDigit {
 
 	void removeDigit(String arr[]) {
 		String finalString = "";
+		String finalDigitString = "";
 		for (int index = 0; index < arr.length; index++) {
 			String testStr = arr[index];
 			for (int chIndex = 0; chIndex < testStr.length(); chIndex++) {
-				if (!Character.isDigit(testStr.charAt(chIndex))) {
+				if (!Character.isDigit(testStr.charAt(chIndex))) 
 					finalString = finalString + testStr.charAt(chIndex);
-				}
+				else
+					finalDigitString = finalDigitString + testStr.charAt(chIndex);
+
+				
 			}
-			System.out.println(finalString);
+			System.out.println("Original String - " + testStr);
+			System.out.println("String without Digit - " +finalString);
+			System.out.println("String without Character - " + finalDigitString);
+			System.out.println("-------------------------------------------------");
+
 			finalString = "";
+			finalDigitString = "";
 		}
 	}
 
