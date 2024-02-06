@@ -2,8 +2,13 @@
  * Assignment - 46 : 4th Feb'2024
 PhenolV_Assignment_52
 Return the string extracting all the digits from it. 
-input :-Aas-H3v7i
-output:-Aas-Hvi
+input :-		String arr[] = { "AasH3v7i", "Aaka2ns5ha", "I2sh4a4n", "Aas3hvi" };
+
+output:-AasHvi
+Aakansha
+Ishan
+Aashvi
+
 
 hint
 if(!Character.isDigit(ch))
