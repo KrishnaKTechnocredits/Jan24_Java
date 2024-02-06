@@ -5,11 +5,7 @@ public class ArrayEx5 {
 	int getSumOfNumDivBy3Or5(int[] num) {
 		int sum = 0;
 		for (int index = 0; index < num.length; index++) {
-			if (num[index] % 3 == 0 && num[index] % 5 == 0) {
-				sum = sum + num[index];
-			} else if (num[index] % 3 == 0) {
-				sum = sum + num[index];
-			} else if (num[index] % 5 == 0) {
+			if (num[index] % 3 == 0 || num[index] % 5 == 0) {
 				sum = sum + num[index];
 			}
 		}
