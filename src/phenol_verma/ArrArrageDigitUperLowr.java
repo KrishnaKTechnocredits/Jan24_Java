@@ -3,8 +3,13 @@
 Assignment - 45 : 4th Feb'2024
 PhenolV_Assignment_51
 Rearrange a string in a way having all digits first followed by Uppercase followed by lowercase. 
-input :-AasH3v7i
-output:-37AHsvi
+input :- String arr[] = { "AasH3v7i", "Aaka2ns5ha", "I2sh4a4n", "Aas3hvi" };
+
+output:-37AHasvi
+25Aakansha
+244Ishan
+3Aashvi
+
 
 hint
 String upperCaseStr = "";
