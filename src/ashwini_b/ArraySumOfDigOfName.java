@@ -11,24 +11,21 @@ output : Aakansha -> 0
  */
 public class ArraySumOfDigOfName {
 
-	void printName(String[] name) {
-		for (int i = 0; i < name.length; i++) {
-			String str = name[i];
-			// System.out.println(str);
+	void printName(String[] names) {
+		for (int i = 0; i < names.length; i++) {
+			String name = names[i];
+			// System.out.println(name);
 			int sum = 0;
-			for (int j = 0; j < str.length(); j++) {
-			
-				char ch = str.charAt(j);
+			for (int j = 0; j < name.length(); j++) {
+				char ch = name.charAt(j);
 				if (Character.isDigit(ch)) {
-				int numericvalue = 	Character.getNumericValue(ch);
+					int numericvalue = Character.getNumericValue(ch);
 
 					sum = sum + numericvalue;
-
 				}
 			}
-			System.out.println(str + " ==> " + sum);
+			System.out.println(name + " ==> " + sum);
 		}
-
 	}
 
 	public static void main(String[] args) {
@@ -36,5 +33,4 @@ public class ArraySumOfDigOfName {
 		ArraySumOfDigOfName arraySumOfDigOfName = new ArraySumOfDigOfName();
 		arraySumOfDigOfName.printName(inputArry);
 	}
-
 }
