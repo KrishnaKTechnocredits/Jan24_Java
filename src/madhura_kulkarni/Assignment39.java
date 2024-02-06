@@ -25,7 +25,7 @@ public class Assignment39 {
 	
 
 	public static void main(String[] args) {
-		String[] S= {"Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno", "Madhura"};
+		String[] S= {"Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno", "madhura", "bhargav"};
 		Assignment39 ass=new Assignment39();
 		ass.printNamesWithUpperCase(S);
 		
