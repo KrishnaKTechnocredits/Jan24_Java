@@ -7,9 +7,8 @@ public class Assignment_41 {
 		 for(int i=0;i<str.length();i++) {
 			 char ch = str.toLowerCase().charAt(0);
 			 if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {	
-				 if(Character.isDigit(str.charAt(i))==true){
+				 if(Character.isDigit(str.charAt(i))==true)
 					 flag=true;
-				}
 			 }
 		 }
 		 return flag;
@@ -22,7 +21,6 @@ public class Assignment_41 {
 			boolean flag=false;
 			if(stringCheck(str)==true)
 				System.out.println(str);
-			
 		 }
 	}
 	
@@ -31,5 +29,4 @@ public class Assignment_41 {
 		Assignment_41 assignment_41=new Assignment_41();
 		assignment_41.printString(input);
 	}
-
 }
