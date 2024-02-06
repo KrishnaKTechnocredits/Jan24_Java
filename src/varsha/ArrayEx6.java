@@ -8,6 +8,8 @@ public class ArrayEx6 {
 			String name = input[index];
 			if (target.equals(name)) {
 				count++;
+				if (count > 1)
+					input[index] = "";
 			}
 		}
 		return count;
@@ -18,8 +20,10 @@ public class ArrayEx6 {
 		String[] names = { "techno", "credits", "samikash", "varsha", "techno" };
 		for (int index = 0; index < names.length; index++) {
 			String name = names[index];
-			int count = arrayEx6.getStringCount(names, name);
-			System.out.println(name + ": " + count);
+			if (!name.equals("")) {
+				int count = arrayEx6.getStringCount(names, name);
+				System.out.println(name + ": " + count);
+			}
 		}
 	}
 }
