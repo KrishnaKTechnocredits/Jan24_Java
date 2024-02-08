@@ -1,4 +1,4 @@
-/*I want to create a class called Employee. instance variable : firstName, lastName, cmpName, city, pincode
+/* Assignment 4 : I want to create a class called Employee. instance variable : firstName, lastName, cmpName, city, pincode
 
 setPrimaryInfo(String firstName, String lastName)
 setOtherInfo(String cmpName, String city, int pincode)
