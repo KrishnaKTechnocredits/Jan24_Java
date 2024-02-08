@@ -1,5 +1,13 @@
 package rohini_deshmane.array_programs;
+/*
+ * Assignment - 49 : 8th Feb'2024
 
+Write a method which accept String Array and return char Array. 
+return last character of each word, if last character is digit, then consider second last character.
+
+input : techno credits32 pune4 indi5a
+output : o3ea
+ */
 public class GetStringArrayPrintCharArray {
 	
 	char getLastCharFromString(String str) {
