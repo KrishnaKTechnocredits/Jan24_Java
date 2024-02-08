@@ -1,5 +1,6 @@
 package technocredits;
 
+
 public class StringEx1 {
 	
 	void printAllChar(String input, char targetChar) {
