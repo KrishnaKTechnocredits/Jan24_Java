@@ -1,7 +1,5 @@
 package rupali_umagol;
 
-
-
 public class Assignment35 {
 	void sumIndex(int[] values) {
 		int sum=0;

@@ -3,11 +3,9 @@ package garima_s;
 public class ReverseArray {
 	
 	void printReverseArray(int[] input) {
-		int temp = 0;
 		System.out.print("Reverse Array : ");
 		for (int index = (input.length - 1); index >= 0; index--) {
-			temp = input[index];
-			System.out.println(temp);
+			System.out.println(input[index]);
 		}
 	}
 
