@@ -22,7 +22,7 @@ public class StartWithVowelAndAtleast1Digit {
 
 	void printNames(String[] names) {
 		for (int index = 0; index < names.length; index++) {
-			if (isStartWithVowel(names[index]) == true && isLeast1Digit(names[index]) == true) {
+			if (isStartWithVowel(names[index])&& isLeast1Digit(names[index])) {
 				System.out.println(names[index]);
 			}
 		}

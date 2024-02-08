@@ -21,14 +21,14 @@ public class StartWithConsonantAndEndWithVowel {
 
 	void printNames(String[] names) {
 		for (int index = 0; index < names.length; index++) {
-			if (isStartWithConsonant(names[index]) == true && isEndWithVowel(names[index]) == true) {
+			if (isStartWithConsonant(names[index]) && isEndWithVowel(names[index])) {
 				System.out.println(names[index]);
 			}
 		}
 	}
 
 	public static void main(String[] args) {
-		String[] names = { "Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno" };
+		String[] names = { "Aashvi", "Sameer", "Ansh", "Sveta", "Rina", "Anand", "Techno" ,"Garima"};
 		new StartWithConsonantAndEndWithVowel().printNames(names);
 	}
 
