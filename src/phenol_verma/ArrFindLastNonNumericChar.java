@@ -48,6 +48,5 @@ public class ArrFindLastNonNumericChar {
 		char[] finalChar = arrFindLastNonNumericChar.nonNumricChar(arr);
 
 		arrFindLastNonNumericChar.printFinalArr(finalChar);
-
 	}
 }
