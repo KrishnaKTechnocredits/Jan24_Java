@@ -7,8 +7,7 @@ public class SumOddDigits {
 		int temp = 0;
 		for (int index = 0; index < value.length(); index++) {
 			char ch = value.charAt(index);
-			boolean digit = Character.isDigit(ch);
-			if (digit == true) {
+			if (Character.isDigit(ch)) {
 				temp = Character.getNumericValue(ch);
 				if (temp % 2 != 0) {
 					sum = sum + temp;
