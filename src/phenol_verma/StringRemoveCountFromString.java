@@ -12,7 +12,7 @@ public class StringRemoveCountFromString {
 	void stringDigitCount(String str) {
 		String finalStr = "";
 		for (int index = 0; index < str.length(); index++) {
-			if (Character.isDigit(str.charAt(index))) {
+			if (!Character.isDigit(str.charAt(index))) {
 				finalStr = finalStr + str.charAt(index);
 			}
 		}
