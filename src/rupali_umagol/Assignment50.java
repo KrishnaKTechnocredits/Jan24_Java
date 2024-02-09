@@ -10,6 +10,7 @@ public class Assignment50 {
 		}
 		return count;
 	}
+	
 	public static void main(String[] args) {
 		Assignment50 assignment50=new Assignment50();
 		String str="H2i H3el4lo P4un2e5";
