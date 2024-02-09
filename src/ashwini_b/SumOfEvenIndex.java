@@ -14,7 +14,6 @@ public class SumOfEvenIndex {
 		for (int index = 0; index < num.length; index++) {
 			if (index % 2 == 0 || index == 0) {
 				sum = sum + num[index];
-				// System.out.println(num[index]);
 			}
 		}
 		System.out.println(sum);
