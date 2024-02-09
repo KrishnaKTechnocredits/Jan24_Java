@@ -38,4 +38,5 @@ public class StringArrayRetrunLastCharOFEachWordAssignment49 {
 		char[] charArr21 = assign49.getLastChar(arr1);
 		assign49.display(charArr21);
 	}
+
 }
