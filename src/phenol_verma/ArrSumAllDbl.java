@@ -8,8 +8,8 @@ Output : 215.31 */
 package phenol_verma;
 
 public class ArrSumAllDbl {
-	void sumAllDblNum(Double[] arr) {
-		Double sumDbl = 0.0;
+	void sumAllDblNum(double[] arr) {
+		double sumDbl = 0.0;
 		for (int index = 0; index < arr.length; index++) {
 			sumDbl = sumDbl + arr[index];
 		}
@@ -18,7 +18,7 @@ public class ArrSumAllDbl {
 
 	public static void main(String[] args) {
 		ArrSumAllDbl arrSumAllDbl = new ArrSumAllDbl();
-		Double arr[] = { 10.20, 45.50, 34.65, 20.60, 25.46, 78.90 };
+		double arr[] = { 10.20, 45.50, 34.65, 20.60, 25.46, 78.90 };
 		arrSumAllDbl.sumAllDblNum(arr);
 	}
 }
