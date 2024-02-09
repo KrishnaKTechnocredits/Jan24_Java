@@ -5,7 +5,7 @@ package shridhar_k;
 public class Assignment31 {
 	int getFreqencyOfChar(String inputStr , char ch) {
 		int count = 0;
-		for (int i =0 ; i < inputStr.length() - 1; i++) {
+		for (int i =0 ; i < inputStr.length() ; i++) {
 			if(inputStr.charAt(i) == ch) {
 				count++;
 			}
