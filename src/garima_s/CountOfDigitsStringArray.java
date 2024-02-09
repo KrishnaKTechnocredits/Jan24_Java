@@ -1,7 +1,6 @@
 package garima_s;
 
 public class CountOfDigitsStringArray {
-
 	int getCountOfDigits(String input) {
 		int count = 0;
 		for (int index = 0; index < input.length(); index++) {
@@ -18,5 +17,4 @@ public class CountOfDigitsStringArray {
 		String input = "H2i H3el4lo P4un2e5";
 		new CountOfDigitsStringArray().getCountOfDigits(input);
 	}
-
 }
