@@ -24,5 +24,6 @@ public class SumOfEvenIndexOfArray {
 		SumOfEvenIndexOfArray sumOfNum = new SumOfEvenIndexOfArray();
 		int[] arr = {3, 6, 9, 11, 15, 20, 4, 26};
 		sumOfNum.printSum(arr);
+		
 	}
 }
