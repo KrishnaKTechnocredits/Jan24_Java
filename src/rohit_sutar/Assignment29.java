@@ -15,6 +15,7 @@ public class Assignment29 {
 		int storeNumericValue1, storeNumericValue2, difference;
 		char ch;
 		
+		//to find sum of even numbers in a string
 		for(int i = 0 ; i < strInput.length() ; i++) {
 			ch = strInput.charAt(i);
 			if(Character.isDigit(ch) == true) {
@@ -26,6 +27,7 @@ public class Assignment29 {
 		}
 		System.out.println("Addition of Odd Numbers : "+evenSum);
 		
+		//to find sum of odd numbers in a string
 		for(int i = 0 ; i < strInput.length() ; i++) {
 			ch = strInput.charAt(i);
 			if(Character.isDigit(ch) == true) {
