@@ -1,7 +1,7 @@
 //WAP to remove all digits from given String.
 package shridhar_k;
 
-public class Assignment50 {
+public class Assignment51 {
 	
 	void printStringWithoutDigit(String inpString) {
 		String newString = "";
@@ -16,6 +16,6 @@ public class Assignment50 {
 	
 	public static void main(String[] args) {
 		String str = "H2i H3el4lo P4un2e5";
-		new Assignment50().printStringWithoutDigit(str);
+		new Assignment51().printStringWithoutDigit(str);
 	}
 }
