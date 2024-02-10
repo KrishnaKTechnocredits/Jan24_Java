@@ -1,7 +1,7 @@
 //Assignment-32
 // Print all the given int array in revere order
 
-package prathamesh_tati;
+package prathamesh_tati.array;
 
 public class ArrayInReverseOrder {
 
