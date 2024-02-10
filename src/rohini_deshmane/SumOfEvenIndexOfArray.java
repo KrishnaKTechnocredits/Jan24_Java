@@ -14,7 +14,7 @@ public class SumOfEvenIndexOfArray {
 	void printSum(int[] arr) {
 		int sum=0;
 		for(int i=0; i< arr.length; i++) {
-			if(arr[i]%2 ==0)
+			if(arr[i]%2 ==0) 
 				sum=sum+arr[i];
 		}
 		System.out.println("Sum of event index numbers = "+sum);
@@ -24,6 +24,5 @@ public class SumOfEvenIndexOfArray {
 		SumOfEvenIndexOfArray sumOfNum = new SumOfEvenIndexOfArray();
 		int[] arr = {3, 6, 9, 11, 15, 20, 4, 26};
 		sumOfNum.printSum(arr);
-		
 	}
 }
