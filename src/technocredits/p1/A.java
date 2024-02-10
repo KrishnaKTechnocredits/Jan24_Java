@@ -1,6 +1,6 @@
 package technocredits.p1;
 
-class A {
+public class A {
 
 	int x = 10;
 	private String name = "techno";
