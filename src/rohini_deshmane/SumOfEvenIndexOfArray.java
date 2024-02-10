@@ -8,13 +8,13 @@ input : {3, 6, 9, 11, 15, 20, 4, 26}
 Output : 31
 
 hint: 3,9,15,4
+
  */
 public class SumOfEvenIndexOfArray {
 	
 	void printSum(int[] arr) {
 		int sum=0;
 		for(int i=0; i< arr.length; i++) {
-
 			if(i%2==0) {
 				System.out.println(arr[i]);
 				sum=sum+arr[i];
