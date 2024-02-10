@@ -16,7 +16,7 @@ public class StringFromArrayHavingSpecialChar {
 		
 		for(int i=0; i<str.length(); i++) {
 			char ch =str.charAt(i);
-			if(!Character.isUpperCase(ch)&& !Character.isLowerCase(ch) && !Character.isDigit(ch)) {
+			if(!Character.isAlphabetic(ch) && !Character.isDigit(ch)) {
 				return true;
 			}
 		}
@@ -26,8 +26,7 @@ public class StringFromArrayHavingSpecialChar {
 	void printString(String[] arr) {
 		
 		for(int i=0; i< arr.length; i++) {
-			boolean flag = havingSpecialChar(arr[i]);
-			if(flag==true) {
+			if(havingSpecialChar(arr[i])) {
 				System.out.println(arr[i]);
 			}
 		}
