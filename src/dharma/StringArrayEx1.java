@@ -24,7 +24,7 @@ public class StringArrayEx1 {
 		String[] arr = {"tech1no3cr4edits","prathm5es6h","a4ksha7y","Padmaja"};
 	    int[] output =new StringArrayEx1().printAllDigit(arr);
 	    for(int i = 0; i < output.length;i++)
-	    System.out.println(output[i]);
+	    	System.out.println(output[i]);
 
 	}
 
