@@ -1,9 +1,9 @@
 /*Return an integer array from a String Array
  * input={ "tech1no3cr4edits", "prathm5es6h", "a4ksha7y", "padmaja" }
  * output=134
-		  56
-		  47
-		   0
+56
+47
+0
  */
 
 package garima_s;
