@@ -9,7 +9,7 @@ public class RemoveDigitsFromString {
 	
 	String removeDigits(String str) {
 		String output="";
-		char ch;
+		char ch; 
 		for(int index=0; index<str.length(); index++) {
 			ch = str.charAt(index);
 			if(!Character.isDigit(ch)) {
