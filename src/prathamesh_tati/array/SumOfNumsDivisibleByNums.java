@@ -1,7 +1,7 @@
 //Assignment 36
 // Return the sum of all the numbers which are divisible by 3 & 5
 
-package prathamesh_tati;
+package prathamesh_tati.array;
 
 public class SumOfNumsDivisibleByNums {
 	int sum = 0;

@@ -1,7 +1,7 @@
 //Assignment 35
 // Return the sum of even numbers
 
-package prathamesh_tati;
+package prathamesh_tati.array;
 
 public class SumOfEvenNumbers {
 
