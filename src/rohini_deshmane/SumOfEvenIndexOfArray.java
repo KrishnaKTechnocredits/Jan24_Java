@@ -15,8 +15,10 @@ public class SumOfEvenIndexOfArray {
 		int sum=0;
 		for(int i=0; i< arr.length; i++) {
 
-			if(i%2==0)
+			if(i%2==0) {
+				System.out.println(arr[i]);
 				sum=sum+arr[i];
+			}
 		}
 		System.out.println("Sum of event index numbers = "+sum);
 	}
