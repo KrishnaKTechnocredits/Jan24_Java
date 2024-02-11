@@ -14,9 +14,7 @@ public class ArrayStringEndWithVowels {
 	boolean isStartWithConsonent(String str) {
 		boolean flag=false;
 		char startChar;
-		
-		startChar = str.trim().charAt(0);
-		startChar = Character.toLowerCase(startChar);
+		startChar = Character.toLowerCase(str.trim().charAt(0));
 		if(startChar != 'a' && startChar != 'e' && startChar != 'i' && startChar!='o' && startChar!='u' ) {
 			flag = true;
 		}
@@ -27,8 +25,7 @@ public class ArrayStringEndWithVowels {
 	boolean isEndWithVowels(String str) {
 		boolean flag = false;
 		char endChar;
-		endChar =str.trim().charAt(str.length()-1);
-		endChar = Character.toLowerCase(endChar);
+		endChar = Character.toLowerCase(str.trim().charAt(str.length()-1));
 		if(endChar == 'a' || endChar == 'o'|| endChar == 'e' || endChar == 'i' || endChar == 'u') {
 			flag=true;
 		}
@@ -37,9 +34,7 @@ public class ArrayStringEndWithVowels {
 	
 	void printEndWithVowels(String[] arr) {
 		for(int index=0; index<arr.length; index++) {
-			boolean startFlag = isStartWithConsonent(arr[index]);
-			boolean endFlag = isEndWithVowels(arr[index]);
-			if(startFlag == true && endFlag==true) {
+			if( isStartWithConsonent(arr[index]) && isEndWithVowels(arr[index])) {
 				System.out.println(arr[index]);
 			}
 		}

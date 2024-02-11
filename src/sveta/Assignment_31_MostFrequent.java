@@ -12,8 +12,6 @@ input : maulik
 output : maulik having all unique characters */
  package sveta;
 
-import sveta.example.ArrayExample1;
-
 class Assignment_31_MostFrequent{
 	
 	int getCharFreq(String str, char getch){

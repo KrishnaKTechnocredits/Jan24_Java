@@ -5,7 +5,7 @@ public class ArrayMoreThan2Digit {
 		int count=0;
 		for (int index = 0; index < name.length(); index++) {
 			char ch = name.charAt(index);
-			if (Character.isDigit(ch) == true)
+			if (Character.isDigit(ch))
 				count++;
 		}
 		if(count>=2) 
@@ -15,7 +15,7 @@ public class ArrayMoreThan2Digit {
 
 	void printNames(String[] names) {
 		for (int index = 0; index < names.length; index++) {
-			if (isAtLeast2Digit(names[index]) == true) {
+			if (isAtLeast2Digit(names[index])) {
 				System.out.println(names[index]);
 			}
 		}

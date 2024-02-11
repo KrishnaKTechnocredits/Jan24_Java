@@ -18,7 +18,7 @@ public class MaxAndMinNumArray {
 	}
 
 	public static void main(String[] args) {
-		int[] input = { 10, 20, 50, 60, 30 };
+		int input[] = { 10, 20, 50, 60, 30 };
 		new MaxAndMinNumArray().printMaxAndMinNumber(input);
 	}
 }

@@ -1,7 +1,5 @@
 package sasmita;
 
-import sasmita.Array.Assignment31;
-
 public class MaxGetCharFreq {
 	int getCharFreqCount(String str, char tagetCh) {
 		int count = 0;
