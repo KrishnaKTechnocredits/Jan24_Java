@@ -6,7 +6,7 @@ return last character of each word, if last character is digit, then consider se
 input : techno credits32 pune4 indi5a
 output : o3ea*/
 
-package prathamesh_tati;
+package prathamesh_tati.array;
 
 public class StringztoCharArray {
 

@@ -1,7 +1,7 @@
 //Assignment 33
 // Return sum of given array of double type
 
-package prathamesh_tati;
+package prathamesh_tati.array;
 
 public class SumOfArray {
 	static double sum = 0;
