@@ -13,21 +13,17 @@ public class ArrayArrange1 {
 
 	static int[] reArrangeArray1(int[] arr) {
 
-		String neOutput = "";
-		String peOutput = "";
+		String PosNegOutput = "";
 		String zeroOutput = "";
 
 		for (int index = 0; index < arr.length; index++) {
-			if (arr[index] < 0) {
-				neOutput = neOutput + arr[index] + ",";
-			} else if (arr[index] > 0) {
-				peOutput = peOutput + arr[index] + ",";
-			}
-			if (arr[index] == 0) {
+			if (arr[index] != 0) {
+				PosNegOutput = PosNegOutput + arr[index] + ",";
+			}if (arr[index] == 0) {
 				zeroOutput = zeroOutput + arr[index] + ",";
 			}
 		}
-		String output = neOutput + peOutput + zeroOutput;
+		String output = PosNegOutput + zeroOutput;
 		output = output.substring(0, output.length() - 1);
 
 		String[] strArr = output.split(",");
