@@ -1,3 +1,8 @@
+/*Push all the zeros at the end of an array.
+int[] arr = {10,-12,6,-3,0,0,-33,44,0,4};
+output : {10,-12,6,-3,-33,44,4,0,0,0};
+*/
+
 package garima_s;
 
 import java.util.Arrays;
