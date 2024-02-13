@@ -9,36 +9,37 @@ package shridhar_k;
 import java.util.Arrays;
 
 public class Assignment53 {
-	
+
 	private int[] rearrange(int[] arr) {
 		int[] output = new int[arr.length];
-		int count =0;
-		for(int i =0; i<arr.length;i++) {
+		int count = 0;
+		for (int i = 0; i < arr.length; i++) {
 			int num = arr[i];
-			if(num<0) {
+			if (num < 0) {
 				output[count] = num;
 				count++;
 			}
 		}
-		for(int i =0; i<arr.length;i++) {
+		for (int i = 0; i < arr.length; i++) {
 			int num = arr[i];
-			if(num > 0) {
+			if (num > 0) {
 				output[count] = num;
 				count++;
+			}
 		}
-	}
 		return output;
 	}
-	
-	String printOutput(int[] intArr) {
+
+	void printOutput(int[] intArr) {
 		int[] rearranged = rearrange(intArr);
 		String output = Arrays.toString(rearranged);
-		return output;
+		output = output.replace('[', '{').replace(']', '}');
+		System.out.println("output: " + output);
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment53 assignment53 = new Assignment53();
-		int[] arr = {10,-12,6,-3,-33,44,4};
-		System.out.println(assignment53.printOutput(arr));
+		int[] arr = { 10, -12, 6, -3, -33, 44, 4 };
+		assignment53.printOutput(arr);
 	}
 }
