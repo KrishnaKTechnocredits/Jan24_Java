@@ -38,5 +38,6 @@ public class ArrayCountFrequency {
 	public static void main(String[] args) {
 		String[] input = { "techno", "credits", "samikash", "varsha", "techno" };
 		new ArrayCountFrequency().printFrequency(input);
+		
 	}
 }
