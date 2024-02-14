@@ -19,6 +19,7 @@ public class Assignment_57 {
 		}
 		System.out.println("Print sum of squares of odd digits : " +no1);
 	}
+
 	public static void main(String[] args) {
 		String str = "te3ch4noc7red8its";
 		new Assignment_57().printSqur(str);
