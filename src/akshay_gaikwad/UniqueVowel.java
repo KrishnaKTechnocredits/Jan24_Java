@@ -5,7 +5,7 @@ output: oi */
 package akshay_gaikwad;
 
 public class UniqueVowel {
-	
+
 	void printUniqueVowel(String str) {
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.charAt(index);
@@ -16,8 +16,8 @@ public class UniqueVowel {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		new UniqueVowel().printUniqueVowel("technocredits"); 
+		new UniqueVowel().printUniqueVowel("technocredits");
 	}
 }
