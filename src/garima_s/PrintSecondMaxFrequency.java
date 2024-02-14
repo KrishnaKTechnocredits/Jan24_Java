@@ -24,7 +24,6 @@ public class PrintSecondMaxFrequency {
 			char ch = input.charAt(index);
 			int count = getCountCharacter(input, ch);
 			if (max < count) {
-				secMax = max;
 				max = count;
 				chMax = ch;
 			} else if (secMax < count && max > count) {
