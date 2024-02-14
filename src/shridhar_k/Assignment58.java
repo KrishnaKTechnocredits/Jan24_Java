@@ -5,8 +5,6 @@ output: h->1"
  */
 package shridhar_k;
 
-import java.security.DomainCombiner;
-
 public class Assignment58 {
 
 		int getCharFrequency(String inpStr, char ch) {
@@ -28,9 +26,10 @@ public class Assignment58 {
 		void printLastCharWithMinFreq(String inpStr) {
 			char lastCharWithMinFreq = inpStr.charAt(inpStr.length()- 1 );
 			int minFreq = getCharFrequency(inpStr , lastCharWithMinFreq);
-			for(int i = inpStr.length() - 1; i > 0 ; i--) {
+			for(int i = inpStr.length() - 1 ; i > 0 ; i--) {
 				char ch = inpStr.charAt(i);
 				int charFreq = getCharFrequency(inpStr, ch);
+				inpStr = inpStr.replace(ch, '@');
 				if(minFreq > charFreq) {
 					lastCharWithMinFreq = ch;
 					minFreq = charFreq;
