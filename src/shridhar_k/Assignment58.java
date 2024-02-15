@@ -23,7 +23,7 @@ public class Assignment58 {
 			}
 		}
 		
-		void printLastCharWithMinFreq(String inpStr) {
+		private char getLastCharWithMinFreq(String inpStr) {
 			char lastCharWithMinFreq = inpStr.charAt(inpStr.length()- 1 );
 			int minFreq = getCharFrequency(inpStr , lastCharWithMinFreq);
 			for(int i = inpStr.length() - 1 ; i > 0 ; i--) {
@@ -35,12 +35,17 @@ public class Assignment58 {
 					minFreq = charFreq;
 				}
 			}
-			
-			System.out.println( lastCharWithMinFreq +" -> "+ minFreq );
+			return lastCharWithMinFreq;
+		}
+		
+		void printLastCharacterFreq(String str) {
+			char ch = getLastCharWithMinFreq(str);
+			int frequency = getCharFrequency(str, ch);
+			System.out.println(ch + " -> "+ frequency);
 		}
 		
 		public static void main(String[] args) {
 			String input = "aakanksha";
-			new Assignment58().printLastCharWithMinFreq(input);
+			new Assignment58().printLastCharacterFreq(input);
 	}
 }
