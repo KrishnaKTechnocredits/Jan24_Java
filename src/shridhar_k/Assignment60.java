@@ -40,6 +40,9 @@ public class Assignment60 {
 	}
 
 	void printHeighestFreqCharOfGivenIndex(String originalString, int freqIndex) {
+		if(freqIndex <= 0) {
+			System.out.println("Invalid index, Enter number greater than Zero");
+		}else {
 		String inpStr = originalString;
 		char character = ' ';
 		if (freqIndex == 1) {
@@ -56,6 +59,7 @@ public class Assignment60 {
 		int characterFreq = getFrequencuOfCharacter(originalString, character);
 
 		System.out.println("output : " + character + " -> " + characterFreq);
+	}
 	}
 
 	public static void main(String[] args) {
