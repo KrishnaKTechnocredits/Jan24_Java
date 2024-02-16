@@ -5,41 +5,80 @@ input: aakanksha
 output: k->2"
 */
 
-
 package phenol_verma;
 
 public class StrSecHighFreqChar {
-	
-	void secHighFreqChar(String str) {
-		int maxCharCount = 0;
-		int secondMaxCharCount = 0;
-		int charIndex = 0;
-		
+
+	// count the frequency of the character
+	int freqCheck(String str, char chr) {
+		int count = 0;
+
 		for (int index = 0; index < str.length(); index++) {
-			str = str.toLowerCase();
-			int count = 0;
-			char ch = str.charAt(index);
-			for (int inIndex = 0; inIndex < str.length(); inIndex++) {
-				if (ch == str.charAt(inIndex)) {
-					count++;
-				}
+			char strChar = str.charAt(index);
+
+			if (chr == strChar) {
+				count++;
 			}
 
-			if (count > maxCharCount) {
-				maxCharCount = count;
-				
-				} else if (count > secondMaxCharCount && count != maxCharCount) {
-					secondMaxCharCount = count;
+		}
+		return count;
+	}
+
+	// get the character with max frequency
+	char getMaxFrqChar(String str) {
+		int maxFreqCount = 0;
+		char chr = '_';
+		char chr1 = '_';
+
+		for (int index = 0; index < str.length(); index++) {
+			chr = str.charAt(index);
+			int charFreq = freqCheck(str, chr);
+
+			if (charFreq > maxFreqCount) {
+				maxFreqCount = charFreq;
+				chr1 = str.charAt(index);
 			}
 		}
-		System.out.println("Second maximun char count is " + secondMaxCharCount);
+
+		return chr1;
+	}
+
+	// get the nth frequency character
+	void nthPositionCharFreq(String str, int position) {
+		char maxFreqChar = '_';
+		int freqChar = 0;
+
+		// if need to have 1st character frequency
+		if (position == 1) {
+			maxFreqChar = getMaxFrqChar(str);
+			freqChar = freqCheck(str, maxFreqChar);
+		} else {
+			// for nth position character
+			for (int index = 0; index < position - 1; index++) {
+				maxFreqChar = getMaxFrqChar(str);
+				freqChar = freqCheck(str, maxFreqChar);
+				// removing all the character with same frequency
+				for (int indexMaxFreq = 0; indexMaxFreq < str.length(); indexMaxFreq++) {
+					char maxFreqCharRem = str.charAt(indexMaxFreq);
+					int freqCharRem = freqCheck(str, maxFreqCharRem);
+					if (freqCharRem == freqChar) {
+						str = str.replaceAll(Character.toString(maxFreqCharRem), "");
+					}
+				}
+				maxFreqChar = getMaxFrqChar(str);
+				freqChar = freqCheck(str, maxFreqChar);
+			}
+			//System.out.println(freqChar);
+			//System.out.println(maxFreqChar);
+			System.out.println("Position " + position + " character " + maxFreqChar + " having frequency of " + freqChar);
+		}
 	}
 
 	public static void main(String[] args) {
+		int position = 4;
 		StrSecHighFreqChar strSecHighFreqChar = new StrSecHighFreqChar();
-		String oriString = "aakanksha";
+		String oriString = "aaaawwwwdddhhhssggpx";
 		System.out.println("Original String = " + oriString);
-		strSecHighFreqChar.secHighFreqChar(oriString);
+		strSecHighFreqChar.nthPositionCharFreq(oriString, position);
 	}
 }
-
