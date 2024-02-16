@@ -2,9 +2,9 @@ package samiksha;
 
 public class MinFreq {
 
-	int getFreq(String str, char targetCh) {
+	int getFreq(String str, char targetCh){
 		int count = 0;
-		for (int index = 0; index < str.length(); index++) {
+		for (int index = 0; index < str.length(); index++){
 			char ch = str.charAt(index);
 			if (ch == targetCh) {
 				count++;
@@ -26,7 +26,7 @@ public class MinFreq {
 				}
 			}
 		}
-		System.out.println(minChar);
+		System.out.println(minChar + " >- " + minCount);
 	}
 
 	public static void main(String[] args) {
