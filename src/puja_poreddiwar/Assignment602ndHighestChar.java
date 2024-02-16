@@ -8,25 +8,24 @@ package puja_poreddiwar;
 
 public class Assignment602ndHighestChar {
 
-	int getCharFrq(String str, char targetCh) {
+	int maxCharFrq(String str, char targetCh) {
 		int count = 0;
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			if (ch == targetCh) {
 				count++;
-				//System.out.println(count);
 			}
 		}
 		return count;
 	}
 
-	char maxCharFrq(String input) {
-		int max= 0;
+	char getCountChar(String input) {
+		int max = 0;
 		char targetCh = ' ';
 		for (int i = 0; i < input.length(); i++) {
 			char ch = input.charAt(i);
-			int count = getCharFrq(input, ch);
-			if(count > max) {
+			int count = maxCharFrq(input, ch);
+			if (count > max) {
 				max = count;
 				targetCh = input.charAt(i);
 			}
@@ -34,19 +33,16 @@ public class Assignment602ndHighestChar {
 		return targetCh;
 	}
 
-	
-	void secondMaximum() {
-		String  input1 = "aakanksha";
-		 char targetCh = maxCharFrq(input1);
-		 input1 = input1.replace(String.valueOf(targetCh), "");
-		 
-		 targetCh = maxCharFrq(input1);
-		 input1 = input1.replace(String.valueOf(targetCh), "");
-		 
-		 System.out.println(targetCh);
+	void secondMaximum(String input) {	
+		char ch = getCountChar(input);
+		String str = input.replace(String.valueOf(ch), "");
+		ch = getCountChar(str);
+		int count = maxCharFrq(str, ch);
+		System.out.println("Second-highest maximum frequency character is = " + ch + " : " + count);
 	}
-	
+
 	public static void main(String[] args) {
-		new Assignment602ndHighestChar().secondMaximum();
+		String input = "aakanksha";
+		new Assignment602ndHighestChar().secondMaximum(input);
 	}
 }
