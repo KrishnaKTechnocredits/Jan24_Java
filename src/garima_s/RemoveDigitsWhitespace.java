@@ -1,9 +1,10 @@
-package garima_s;
+
 /*"Remove digits and whitespace characters:
 input: H2i H3el4lo P4un2e5
 output: HiHelloPune"
 */
 
+package garima_s;
 class RemoveDigitsWhitespace {
 	void printRemoveDigitWhiteSpace(String input) {
 		String output = "";
