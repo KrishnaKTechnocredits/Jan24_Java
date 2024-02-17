@@ -16,6 +16,7 @@ class Assignmnet57{
 				int num = Character.getNumericValue(ch);
 				if(num%2!=0){
 					sum = sum + (num * num);
+					
 				}
 			}
 		}
