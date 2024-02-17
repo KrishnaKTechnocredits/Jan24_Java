@@ -1,4 +1,5 @@
 package ashwini_b;
+
 /*
 Assignment - 63 : 16th Feb'2024
 "Detect empty input string:
