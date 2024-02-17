@@ -37,6 +37,7 @@ public class Assignment_67 {
 		}
 		System.out.println(str1);
 	}
+	
 	public static void main(String[] args) {
 		String input= "hi hEllO how are you";
 		String arr[]=input.split(" ");

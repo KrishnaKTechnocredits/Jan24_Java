@@ -25,6 +25,7 @@ public class Assignment_67_2 {
 		}
 		System.out.println(str1);
 	}
+	
 	public static void main(String[] args) {
 		String input= "Hi Hello Maulik";
 		String arr[]=input.split(" ");

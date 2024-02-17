@@ -17,6 +17,7 @@ public class Assignment_67_1 {
 		}
 		return str1;
 	}
+	
 	public void printString(String []arr) {
 		String str1="";
 		for(int i=0;i<arr.length;i++) {
