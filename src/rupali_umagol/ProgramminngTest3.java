@@ -16,8 +16,9 @@ public class ProgramminngTest3 {
 	}
 
 	String toUppercaseString(String str) {
-		String name = reverseString(str);
-		String output = Character.toUpperCase(name.charAt(0)) + name.substring(1, name.length() - 1) + Character.toUpperCase(name.charAt(name.length() - 1));
+		char ch = Character.toUpperCase(str.charAt(0));
+		char ch1 = Character.toUpperCase(str.charAt(str.length() - 1));
+		String output = ch + str.substring(1, str.length() - 1) + ch1;
 		return output;
 	}
 
@@ -34,5 +35,6 @@ public class ProgramminngTest3 {
 	public static void main(String[] args) {
 		String[] arr = { "naman", "techno", "madam", "credits", "nitin" };
 		new ProgramminngTest3().PrintArray(arr);
+		
 	}
 }
