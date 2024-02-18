@@ -8,6 +8,8 @@ class Assignment65{
 			str1 = str1+str.charAt(i);
 		}
 		System.out.println(str1);
+		System.out.println(str1);
+		
 	}
 	
 	public static void main(String[] args){
