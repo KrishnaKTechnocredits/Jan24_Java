@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class PalindromeString {
 
-	String getReverseArray(String value) {
+	String getReverseString(String value) {
 		String temp = "";
 		for (int index = (value.length() - 1); index >= 0; index--) {
 			temp = temp + value.charAt(index);
@@ -17,30 +17,25 @@ public class PalindromeString {
 		return temp;
 	}
 
-	boolean isPalindrome(String input, String Output) {
-		if (input.equals(Output)) {
-			return true;
+	String[] printUppercaseFirstLast(String[] input) {
+		String output;
+		for (int i = 0; i < input.length; i++) {
+			output = getReverseString(input[i]);
+			if (!input[i].equals(output)) {
+				output = Character.toUpperCase(output.charAt(0)) + output.substring(1, output.length() - 1)
+						+ Character.toUpperCase(output.charAt(output.length() - 1));
+				input[i] = output;
+			} else {
+				input[i] = output;
+			}
 		}
-		return false;
-	}
-
-	String printUppercaseFirstLast(String input, String output) {
-		if (!isPalindrome(input, output)) {
-			output = output.replace(output.charAt(0), output.toUpperCase().charAt(0));
-			output = output.replace(output.charAt(output.length() - 1),
-					output.toUpperCase().charAt(output.length() - 1));
-		}
-		return output;
+		return input;
 	}
 
 	public static void main(String[] args) {
 		String[] input = { "naman", "techno", "madam", "credits", "nitin" };
-		String[] output = new String[input.length];
 		PalindromeString palindromeString = new PalindromeString();
-		for (int index = 0; index < input.length; index++) {
-			output[index] = palindromeString.getReverseArray(input[index]);
-			output[index] = palindromeString.printUppercaseFirstLast(input[index], output[index]);
-		}
-		System.out.println(Arrays.toString(output));
+		input = palindromeString.printUppercaseFirstLast(input);
+		System.out.println(Arrays.toString(input));
 	}
 }
