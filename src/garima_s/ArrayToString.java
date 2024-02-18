@@ -46,9 +46,9 @@ public class ArrayToString {
 	}
 
 	String toUpperCaseFirstCharacter(String str) {
-		str=str.toLowerCase().replace(str.charAt(0), str.toUpperCase().charAt(0));
+		str = str.toLowerCase().replace(str.charAt(0), str.toUpperCase().charAt(0));
 		return str;
-		}
+	}
 
 	public static void main(String[] args) {
 		String input = "Hi Hello Maulik";
