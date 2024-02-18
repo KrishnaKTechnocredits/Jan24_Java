@@ -14,11 +14,7 @@ public class NonPalindromStringReverseProgram {
 		String reverseStr = "";
 		
 		for(int i=str.length()-1; i>=0; i--) {
-			if(i==0 || i == str.length()-1) {
 				reverseStr = reverseStr + str.charAt(i);
-			} else {
-			reverseStr = reverseStr + str.charAt(i);
-			}
 		}
 		return reverseStr;
 	}
