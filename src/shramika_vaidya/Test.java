@@ -83,9 +83,9 @@ public class Test {
 // ------------------------------------------------------------------------------------------------------
 		System.out.println("---------------------------------------------");
 		System.out.println("case6:");
-//	    Manager m3 = new Employee(); // this case is not possible CE can not assign parent to child class.
-//	    Employee e2 = new Employee();
-//	    e2=m3;
+		Manager m3 = new Manager(); //
+		Employee e2 = new Employee();
+		// e2=m3; this case is not possible CE can not assign parent to child class.
 		System.out.println("not valid case");
 	}
 }
