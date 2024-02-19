@@ -20,11 +20,12 @@ public class ReverseAndCapitalLetter {
 			String revStr = reverseStr(strArr[index]).toLowerCase();
 			output += Character.toUpperCase(revStr.charAt(0)) + revStr.substring(1) + " ";
 		}
-		System.out.println(output);
+		System.out.println("Output : " +output);
 	}
 	
 	public static void main(String[] args) {
 		String str = "Hi Hello Maulik";
+		System.out.println("Input : " + str);
 		new ReverseAndCapitalLetter().reverseStrWithCapital1stLetter(str);
 	}
 }

@@ -9,7 +9,7 @@ public class CapitalFirstLetterInString {
 		for (int index = 0; index < strArr.length; index++) {
 			output += capitalFirstLetterInString(strArr[index]);
 		}
-		System.out.println(output);
+		System.out.println("Output : " + output);
 	}
 
 	String capitalFirstLetterInString(String str) {
@@ -19,6 +19,8 @@ public class CapitalFirstLetterInString {
 	}
 
 	public static void main(String[] args) {
+		String str = "hi hEllO how are you";
+		System.out.println("Input : " + str);
 		new CapitalFirstLetterInString().capitalFirstLetterInWholeString("hi hEllO how are you");
 	}
 }

@@ -22,6 +22,10 @@ public class ReverseWordsInArray {
 	}
 	
 	public static void main(String[] args){
-		System.out.println(new ReverseWordsInArray().reverseWholeString("Hi Hello Maulik"));
+		String input = "Hi Hello Maulik";
+		String output = new ReverseWordsInArray().reverseWholeString(input);
+		System.out.println("Input : " + input);		
+		System.out.println("Output : " + output);
+
 	}
 }
