@@ -5,11 +5,11 @@ package madhura_kulkarni;
 
 public class Assignment67_2 {
 
-		String processData(String input) {
+	String processData(String input) {
 		String output = "";
-		char ch = Character.toUpperCase(input.charAt(input.length()-1));
+		char ch = Character.toUpperCase(input.charAt(input.length() - 1));
 		output = output + ch;
-		for (int i=input.length() - 2; i >= 0; i--) {
+		for (int i = input.length() - 2; i >= 0; i--) {
 			output = output + input.charAt(i);
 		}
 		return output;
