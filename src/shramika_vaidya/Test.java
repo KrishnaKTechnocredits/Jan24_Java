@@ -33,7 +33,7 @@ public class Test {
 		System.out.println("case1:");
 		Manager manager = new Manager();
 		System.out.println(manager.id);
-		System.out.println(manager.mngName);   
+		System.out.println(manager.mngName);
 //	    System.out.println(manager.empName); ->CE [manager can access only those variables which are in Manager class because Manager is refer type]
 		manager.display();
 		manager.getData();
@@ -42,8 +42,10 @@ public class Test {
 		System.out.println("case2:");
 		Employee1 emp = new Employee1();
 		System.out.println(emp.id);
-		System.out.println(emp.mngName); // all members of parents travels to the child class hence child is able to access all,if same name variables
-		                                 // or methods are also available in child class then priority goes to child class members.
+		System.out.println(emp.mngName); // all members of parents travels to the child class hence child is able to
+											// access all,if same name variables
+											// or methods are also available in child class then priority goes to child
+											// class members.
 		System.out.println(emp.empName);
 		emp.display();
 		emp.getData();
@@ -56,8 +58,8 @@ public class Test {
 		System.out.println(mg.mngName);
 //		System.out.println(mg.empName);// child class methods or variables dose not travel to parent class.
 		mg.display();
-		mg.getData();  // at compile time execute the behavior of parent class but at runtime executes
-					   //  the behavior of child class.
+		mg.getData(); // at compile time execute the behavior of parent class but at runtime executes
+						// the behavior of child class.
 //		mg.printData();- // subclass member can't be access by superclass,here refer type is of parent class
 //		                    hence only parent class members will be access.
 		// --------------------------------------------------------------------------------------------------------
@@ -74,7 +76,7 @@ public class Test {
 		System.out.println(m.id);
 		System.out.println(m.mngName);
 //		System.out.println(m.empName); this will work exact as case 3: it just that you have created object twice but assigning the value of e to m,
-		                              // (m=e).hence both are pointing to the same location.
+		// (m=e).hence both are pointing to the same location.
 		m.display();
 		m.getData();
 //		m.printData() //subclass member can't be access by superclass.
