@@ -9,8 +9,6 @@ output :
 
 package madhura_kulkarni;
 
-import java.util.Arrays;
-
 public class Assignment71 {
 
 	int findMaxLen(String[] arr) {
