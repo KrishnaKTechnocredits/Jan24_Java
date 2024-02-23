@@ -42,7 +42,8 @@ Technocredits
 package phenol_verma;
 
 public class AlignmentLeftExp {
-
+	String[] result;
+	
 	String[] maxLenth(String str) {
 		int charWithMaxLength = 0;
 		String maxLengthWord = " ";
@@ -59,9 +60,9 @@ public class AlignmentLeftExp {
 		// result[1] -> maxLengthWord
 	}
 
-	void assignment69(String str) {
+	void assignment69(String str, boolean isPrintRequired) {
 		String[] splitStr = str.split(" ");
-		String[] result = maxLenth(str);
+		result = maxLenth(str);
 		int getLenghtOfSplitStrWord = 0;
 
 		for (int index = 0; index < splitStr.length; index++) {
@@ -73,7 +74,8 @@ public class AlignmentLeftExp {
 			for (int getSpaceString = 0; getSpaceString < spaceCounter; getSpaceString++) {
 				spaceString = spaceString + " ";
 			}
-			System.out.println(spaceString + splitStr[index]);
+			if(isPrintRequired)
+				System.out.println(spaceString + splitStr[index]);
 		}
 	}
 
@@ -149,8 +151,8 @@ public class AlignmentLeftExp {
 			}
 			resultAfterDigitOut = resultAfterDigitOut + charStr + " ";
 		}
-        assignment69(resultAfterDigitOut);
-		String[] result = maxLenth(resultAfterDigitOut);
+		assignment69(resultAfterDigitOut, true);
+		//String[] result = maxLenth(resultAfterDigitOut);
 		String sumdigit = sumDigit + "";
 		for (int index = 0; index < Integer.parseInt(result[0]) - sumdigit.length(); index++)
 			resultWithSapce = resultWithSapce + " ";
@@ -167,7 +169,7 @@ public class AlignmentLeftExp {
 		System.out.println("*************************Assignment 69*************************");
 		System.out.println("Input String - " + str1);
 		System.out.println("Output Pattern - ");
-		alignmentLeftExp.assignment69(str1);
+		alignmentLeftExp.assignment69(str1,true);
 
 		System.out.println("*************************Assignment 70*************************");
 		System.out.println("Input String - " + str2);
