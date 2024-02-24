@@ -13,23 +13,29 @@ public class Assignment_72 {
 		return max;
 	}
 	
-	public String getNewString(String str, int maxLen) {
+	public String getNewString(String str,int maxLen) {
 		String str1="";
-		int s1=0;
-		String s2="";
-		for(int i=0;i<str.length();i++) {
-			char ch =str.charAt(i);
-			//System.out.println(ch);
-			if(!Character.isDigit(ch)) {
-				s2=s2+ch;	
-			}
-		}
-		int no = maxLen-s2.length();
-		for(int i=0;i<=no;i++) {
+		int no=maxLen-str.length();
+		for(int i=0;i<no;i++) {
 			str1+=" ";
 		}
-		str1+=s2;
+		str1+=str;
 		return str1;
+	}
+	public String removeDigit(String strarr) {
+		int sum=0;
+		String str="";
+		for (int i=0;i<strarr.length();i++) {
+			char ch =strarr.charAt(i);
+			if(Character.isDigit(ch)) {
+				sum+=Integer.parseInt(ch+"");
+			}
+			else {
+				str+=ch;
+			}
+		}
+		str=str +" "+sum;
+		return str;
 	}
 	
 	public void printString(String strarr[]) {
@@ -42,8 +48,9 @@ public class Assignment_72 {
 	
 	public static void main(String[] args) {
 		String str = "H5el6lo Hi Tech3noc2redits pu1ne";
-		String strarr[] = str.split(" ");
-		new Assignment_72().printString(strarr);
+		Assignment_72 ass =new Assignment_72();
+		String str1=ass.removeDigit(str);
+		String strarr[] = str1.split(" ");
+		ass.printString(strarr);
 	}
-
 }

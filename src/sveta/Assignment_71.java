@@ -31,7 +31,7 @@ public class Assignment_71 {
 			s2=s1+s2;
 		}
 		int no =maxLen-s2.length();
-		for(int i=0;i<=no;i++) {
+		for(int i=0;i<no;i++) {
 			str1+=" ";
 		}
 		str1+=s2;

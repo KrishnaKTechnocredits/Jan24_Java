@@ -15,8 +15,8 @@ public class Assignment_69 {
 	
 	public String getNewString(String str, int maxLen) {
 		String str1="";
-		int no =maxLen-str.length();
-		for(int i=0;i<=no;i++) {
+		int no = maxLen-str.length();
+		for(int i=0;i<no;i++) {
 			str1+=" ";
 		}
 		str1+=str;

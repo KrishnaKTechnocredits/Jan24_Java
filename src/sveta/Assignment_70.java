@@ -18,7 +18,7 @@ public class Assignment_70 {
 		String s1="";
 		String s2="";
 		int no =maxLen-str.length();
-		for(int i=0;i<=no;i++) {
+		for(int i=0;i<no;i++) {
 			str1+=" ";
 		}
 		for(int i=0;i<str.length();i++) {
