@@ -4,8 +4,8 @@ public class Assignment_68 {
 
 	void applyCase1() {
 		Manager1 manager1=new Manager1();
-		System.out.println("#CASE - 1");
 		System.out.println("-----------------------------");
+		System.out.println("#CASE - 1");
 		System.out.println(manager1.id);
 		System.out.println(manager1.name);
 		manager1.getData();
