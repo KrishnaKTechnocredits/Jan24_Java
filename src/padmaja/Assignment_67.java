@@ -25,14 +25,6 @@ public class Assignment_67 {
 		}
 		return output;
 	}
-	
-	String firstLetterUpperCase(String str) {
-		String input = str.toLowerCase();
-		for(int index= 0; index<input.length(); index++) {
-			input = Character.toUpperCase(0) + input.substring(1, input.length()-1);			
-		}
-		return input;
-	}
 
 	void printString(String[] arr) {
 		String output = "";
@@ -40,11 +32,6 @@ public class Assignment_67 {
 			output = output + " " + reverseString_Program1(arr[index]);
 		}
 		System.out.println(output);
-		String output1 = "";
-		for (int index = 0; index < arr.length; index++) {
-			output1 = output1 + " " + firstLetterUpperCase(arr[index]);
-		}
-		
 	}
 
 	public static void main(String[] args) {
@@ -52,11 +39,5 @@ public class Assignment_67 {
 		String[] input = str.split(" ");
 		Assignment_67 assignment_67 = new Assignment_67();
 		assignment_67.printString(input);
-		
-		String str2 = "hi hEllO how are you";
-		String[] input1 = str2.split(" ");
-		assignment_67.printString(input1);
-
 	}
-
 }
