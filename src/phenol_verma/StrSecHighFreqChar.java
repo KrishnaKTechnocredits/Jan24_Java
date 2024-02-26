@@ -19,7 +19,6 @@ public class StrSecHighFreqChar {
 			if (chr == strChar) {
 				count++;
 			}
-
 		}
 		return count;
 	}
@@ -39,7 +38,6 @@ public class StrSecHighFreqChar {
 				chr1 = str.charAt(index);
 			}
 		}
-
 		return chr1;
 	}
 
