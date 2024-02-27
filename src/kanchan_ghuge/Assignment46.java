@@ -20,7 +20,7 @@ return ans;  */
 
 package kanchan_ghuge;
 
-class Assignment46 { // done need to add in git
+class Assignment46 { 
 
 	void printString(String str) {
 		System.out.println("Input String is = " + str);
