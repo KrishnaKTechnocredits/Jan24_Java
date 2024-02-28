@@ -8,7 +8,7 @@ public class String2 {
 		String output = "";
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.toUpperCase().charAt(0);
-			output = str.toLowerCase().substring(1, str.length()) + ch;
+			output = ch + str.toLowerCase().substring(1, str.length());
 		}
 		return output;
 	}

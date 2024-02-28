@@ -14,11 +14,13 @@ public class String1 {
 	}
 
 	void printArray(String[] str) {
+		String finalOutput = "";
 		String[] output = new String[str.length];
 		for (int i = 0; i < str.length; i++) {
 			output[i] = printFirstChCapitalAndReverse(str[i]);
+			finalOutput = finalOutput + output[i] + " ";
 		}
-		System.out.print(Arrays.toString(output));
+		System.out.print(finalOutput.trim());
 	}
 
 	public static void main(String[] args) {
