@@ -1,4 +1,4 @@
-package rohini_deshmane;
+package rohini_deshmane.array_programs;
 
 public class PrintFrequencyOfNameFromArray {
 	int countOfCharFromString(String[] str, String targetStr) {
@@ -41,3 +41,5 @@ public class PrintFrequencyOfNameFromArray {
 		maxFrechar.printmaxFrequencyChar(strArr);
 	}
 }
+
+
