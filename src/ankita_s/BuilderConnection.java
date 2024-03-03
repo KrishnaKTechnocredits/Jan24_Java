@@ -1,15 +1,15 @@
 package ankita_s;
 
-public class EagerLoadingConnection {
-	private static EagerLoadingConnection con = new EagerLoadingConnection();
+public class BuilderConnection {
+	private static BuilderConnection con = new BuilderConnection();
 
-	private EagerLoadingConnection() {
+	private BuilderConnection() {
 	}
 
 	void updateQuery() {
 	}
 
-	static EagerLoadingConnection getobject() {
+	static BuilderConnection getobject() {
 		return con;
 	}
 
