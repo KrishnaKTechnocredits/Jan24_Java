@@ -6,11 +6,11 @@ package varsha.lazysingleton;
 //Note : use lazy loading implementation.
 
 public class Connection {
-	
+
 	private static Connection connection;
-	
+
 	final static Connection getConnection() {
-		if(connection == null) {
+		if (connection == null) {
 			connection = new Connection();
 		}
 		return connection;
