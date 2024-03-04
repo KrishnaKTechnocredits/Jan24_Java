@@ -13,6 +13,5 @@ public class Connection {
 			con = new Connection();
 		}
 		return con;
-
 	}
 }
