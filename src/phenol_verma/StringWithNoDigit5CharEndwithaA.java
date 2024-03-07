@@ -1,3 +1,10 @@
+/*Assignment - 75 : 7th March'2024 (15-18 mins)
+PhenolV_Assignment_78
+Print all the names having length more than 5 characters, must end with 'a' or 'A' and should not have any digit.
+String[] names = {"Pooja", "Svee2ta", "Samiksha", "G4arima", "Anand", "Shridhar"};
+
+output : Samiksha */
+
 package phenol_verma;
 
 import java.util.Arrays;
@@ -27,7 +34,7 @@ public class StringWithNoDigit5CharEndwithaA {
 
 	public static void main(String[] args) {
 		StringWithNoDigit5CharEndwithaA stringWithNoDigit5CharEndwithaA = new StringWithNoDigit5CharEndwithaA();
-		String[] names = { "Pooja", "Svee2ta", "Samiksha", "Garima", "Anand", "Shridhar" };
+		String[] names = { "Pooja", "Svee2ta", "Samiksha", "G4arima", "Anand", "Shridhar" };
 		stringWithNoDigit5CharEndwithaA.checkString(names);
 	}
 }
