@@ -1,0 +1,18 @@
+package garima_s;
+
+public class Builder {
+	
+	private static Builder obj;
+	
+	static {
+		obj = new Builder();
+	}
+
+	private Builder() {
+
+	}
+
+	static Builder getObject() {
+		return obj;
+	}
+}
