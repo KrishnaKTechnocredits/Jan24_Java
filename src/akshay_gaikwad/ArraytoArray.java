@@ -47,6 +47,7 @@ public class ArraytoArray {
 		for (int index = 0; index < output.length; index++) {
 			output[index] = arr1[index] + arr2[index];
 		}
+		Arrays.sort(output);
 		return output;
 	}
 	public static void main(String[] args) {
