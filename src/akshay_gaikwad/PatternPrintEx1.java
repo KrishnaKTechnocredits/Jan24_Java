@@ -33,7 +33,7 @@ public class PatternPrintEx1 {
 
 	public static void main(String[] args) {
 		PatternPrintEx1 obj = new PatternPrintEx1();
-		obj.numberPattern(4);
+		obj.starPattern(4);
 		System.out.println("---------------");
 		obj.numberPattern(6);
 		System.out.println("---------------");
