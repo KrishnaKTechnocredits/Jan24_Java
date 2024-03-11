@@ -4,7 +4,6 @@ public class Assignment_68 {
 
 	void applyCase1() {
 		Manager1 manager1=new Manager1();
-		System.out.println("-----------------------------");
 		System.out.println("#CASE - 1");
 		System.out.println(manager1.id);
 		System.out.println(manager1.name);
@@ -12,7 +11,7 @@ public class Assignment_68 {
 		manager1.display();
 	}
 	void applyCase2() {
-		System.out.println("-----------------------------");
+		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 2");
 		Employee1 Employee1=new Employee1();
 		System.out.println(Employee1.id);
@@ -21,7 +20,7 @@ public class Assignment_68 {
 	}
 	void applyCase3() {
 		Manager1 manager1=new Employee1();
-		System.out.println("-----------------------------");
+		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 3");
 		System.out.println(manager1.id);
 		System.out.println(manager1.name);
@@ -29,7 +28,7 @@ public class Assignment_68 {
 		manager1.display();
 	}
 	void applyCase4() {
-		System.out.println("-----------------------------");
+		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 4");
 		System.out.println("Invalid case because this is not possible in java");
 		/*Employee1 employee = new Manager1();
@@ -40,7 +39,7 @@ public class Assignment_68 {
 		 */
 	}
 	void applyCase5() {
-		System.out.println("-----------------------------");
+		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 5");
 		Manager1 manager1=new Employee1();
 		Employee1 employee1= new Employee1();
