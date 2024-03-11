@@ -15,9 +15,9 @@ package shridhar_k;
 public class Assignment79 {
 
 	void printNumColumnWise(int rowCount) {
-		for (int rowIndex = 0; rowIndex <= rowCount; rowIndex++) {
-			for (int columnIndex = 0; columnIndex <= rowIndex; columnIndex++) {
-				System.out.print(rowIndex + 1 + " ");
+		for (int rowIndex = 1; rowIndex < rowCount+1; rowIndex++) {
+			for (int columnIndex = 1; columnIndex <= rowIndex; columnIndex++) {
+				System.out.print(rowIndex  + " ");
 			}
 			System.out.println("");
 		}
