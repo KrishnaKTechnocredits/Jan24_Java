@@ -21,10 +21,8 @@ public class MinAndMaxValuePredifenedArrayAssignment80 {
 				min =abc[i];
 			}
 		}
-		System.out.println("Max number-:");
-		System.out.println(max);
-		System.out.println("Min number-:");
-		System.out.println(min);
+		System.out.println("From Array " + Arrays.toString(abc)+ " , maximum number is " + max +" and minimun number is " + min);
+	
 	}
 	public static void main(String[] args) {
 		int abc[] = new int[5];
@@ -33,8 +31,6 @@ public class MinAndMaxValuePredifenedArrayAssignment80 {
 			Scanner sc= new Scanner(System.in);
 			abc[i]=sc.nextInt();
 		}
-		System.out.println("Output Array-:");
-		System.out.println(Arrays.toString(abc));
 		new MinAndMaxValuePredifenedArrayAssignment80().minAndMaxInArray(abc);
 		
 	}
