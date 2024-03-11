@@ -26,9 +26,12 @@ public class MinAndMaxValuePredifenedArrayAssignment80 {
 	}
 	public static void main(String[] args) {
 		int abc[] = new int[5];
-		for(int i=0;i<5;i++)
+		System.out.println("Enter total number");
+		Scanner sc= new Scanner(System.in);
+		int count=sc.nextInt();
+		for(int i=0;i<count;i++)
 		{
-			Scanner sc= new Scanner(System.in);
+			System.out.print("Enter num : ");	
 			abc[i]=sc.nextInt();
 		}
 		new MinAndMaxValuePredifenedArrayAssignment80().minAndMaxInArray(abc);
