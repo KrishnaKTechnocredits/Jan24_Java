@@ -71,7 +71,6 @@ public class Assignment_68 {
 		assignment_68.applyCase4();
 		assignment_68.applyCase5();
 		assignment_68.applyCase6();
-		
 	}
 
 }

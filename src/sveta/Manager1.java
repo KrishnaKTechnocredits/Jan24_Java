@@ -11,5 +11,4 @@ public class Manager1 {
 	void display() {
 		System.out.println("manager name is "+name);
 	}
-	
 }
