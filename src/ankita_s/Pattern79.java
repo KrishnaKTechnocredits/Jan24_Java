@@ -1,6 +1,6 @@
 package ankita_s;
 
-public class Assignment_79 {
+public class Pattern79 {
 	void patternPrinting(int row) {
 		int count = 1;
 		for (int i = 1; i <= row; i++) {
@@ -26,7 +26,7 @@ public class Assignment_79 {
 	}
 
 	public static void main(String[] args) {
-		Assignment_79 ass79 = new Assignment_79();
+		Pattern79 ass79 = new Pattern79();
 		ass79.patternPrinting(4);
 		System.out.println("--*-----*-----*-");
 		ass79.patternPrinting1(5);
