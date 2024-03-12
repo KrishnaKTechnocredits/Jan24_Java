@@ -1,4 +1,23 @@
 package rohini_deshmane.array_programs;
+/*
+ * Assignment - 80 : 10th March'2024
+
+Print maximum and minimum value from user defined array.
+ 
+NOTE : use Scanner class.
+
+input : 
+Enter total numbers
+5
+Enter num : 10
+Enter num : 2
+Enter num : 1
+Enter num : 100
+Enter num : 98
+
+output : From array [10, 2, 1, 100, 98], maximum number is 100 and minimum number is 1
+
+ */
 import java.util.Scanner; 
 
 public class MinMaxFromUserDefinedArray {
