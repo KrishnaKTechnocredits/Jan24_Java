@@ -25,9 +25,7 @@ public class ScannerClass {
 	void retrunMaxValue(int[] arr) {
 		int maxValue = 0;
 		for (int index = 0; index < arr.length; index++) {
-			if (maxValue < arr[index]) {
-				maxValue = arr[index];
-			}
+			maxValue = (maxValue < arr[index]) ? arr[index] : maxValue;
 		}
 		System.out.println("Max value in array - " + maxValue);
 	}
@@ -35,10 +33,7 @@ public class ScannerClass {
 	void retrunMinValue(int[] arr) {
 		int minValue = arr[0];
 		for (int index = 0; index < arr.length; index++) {
-
-			if (minValue > arr[index]) {
-				minValue = arr[index];
-			}
+			minValue = (minValue > arr[index]) ? arr[index] : minValue;
 		}
 		System.out.println("Min value in array - " + minValue);
 	}
