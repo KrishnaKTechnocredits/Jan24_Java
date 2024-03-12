@@ -19,8 +19,10 @@ public class NameHavingMoreThanFiveLen {
 				}
 			}
 			if(isDigit == false) {
-				System.out.println(str);
-				isDigit=true;
+				if(str.charAt(str.length()-1)=='a') {
+					System.out.println(str);
+					isDigit=true;
+				}
 			}
 		}
 		
