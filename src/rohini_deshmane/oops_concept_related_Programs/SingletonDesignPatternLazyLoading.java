@@ -16,6 +16,11 @@ public class SingletonDesignPatternLazyLoading {
 	}
 	
 	public static void main(String[] args) {
-		SingletonDesignPatternLazyLoading.getObject();
+		SingletonDesignPatternLazyLoading obj1 = SingletonDesignPatternLazyLoading.getObject();
+		System.out.println(obj1);
+		SingletonDesignPatternLazyLoading obj2 = SingletonDesignPatternLazyLoading.getObject();
+		System.out.println(obj2);
+		SingletonDesignPatternLazyLoading obj3 = SingletonDesignPatternLazyLoading.getObject();
+		System.out.println(obj3);
 	}
 }
