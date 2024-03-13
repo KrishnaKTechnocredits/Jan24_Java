@@ -18,7 +18,7 @@ public class DivideArrayAndSum {
 			sum [index] = arr1[index] + arr2[index];
 		}
 		System.out.println("1st Output array : " + Arrays.toString(arr1));
-		System.out.println("1st Output array : " + Arrays.toString(arr2));
+		System.out.println("2nd Output array : " + Arrays.toString(arr2));
 		System.out.println("Sum of array : " + Arrays.toString(sum));
 	}
 	
