@@ -57,7 +57,8 @@ public class NumberArrayUserInput {
 		arr[3] = scanner.nextInt();
 		System.out.println("Enter Number : ");
 		arr[4] = scanner.nextInt();
-
+		scanner.close();
+		
 		System.out.println(Arrays.toString(arr));
 
 		NumberArrayUserInput numberArrayUserInput = new NumberArrayUserInput();
