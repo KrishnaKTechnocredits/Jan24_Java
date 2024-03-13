@@ -58,10 +58,7 @@ public class ProgrammingTest4 {
 		System.out.println("Enter required Size of Array");
 		Scanner scan = new Scanner(System.in);
 		arrSize = scan.nextInt();
-		/*if(arrSize%2 !=0) {
-			num = new int [arrSize+1];
-		} else */
-			num = new int [arrSize];
+		num = new int [arrSize];
 		
 		System.out.println("Enter Array elements");
 		for(int i=0; i< arrSize; i++) {
