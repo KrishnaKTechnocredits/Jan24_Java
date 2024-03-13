@@ -1,6 +1,14 @@
 package rohini_deshmane.programming_test;
+/*
+Write a Program to divide one array into same size of two arrays and add elements of both the arrays
+Original Array = [1, 10, 20, 12, 15, 6]
+New Array 1 = [1, 10, 20]
+New Array 2 = [12, 15, 6]
 
+Sum Of two Array elements = [13, 25, 26]
+ */
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ProgrammingTest4 {
 
@@ -13,7 +21,12 @@ public class ProgrammingTest4 {
 	}
 	
 	void divideArray(int[] arr){
-		int size = arr.length/2;
+		int size;
+		if(arr.length %2 ==0)
+			size = arr.length/2;
+		else
+			size = (arr.length/2)+1;
+		
 		int[] newArr1 = new int[size];
 		int[] newArr2 = new int[size];
 		int count=0;
@@ -24,7 +37,11 @@ public class ProgrammingTest4 {
 		}
 		
 		for(int i=0; i<size; i++) {
-			newArr2[i]=arr[count];
+			if(arr.length <= count) {
+				newArr2[i] =0;
+			} else
+				newArr2[i]=arr[count];
+			
 			count++;
 		}
 		
@@ -36,7 +53,22 @@ public class ProgrammingTest4 {
 	}
 	
 	public static void main(String[] args) {
-		int[] num = {1,10,20,12,15,6};
+		int[] num; //{1,10,20,12,15,6};
+		int arrSize;
+		System.out.println("Enter required Size of Array");
+		Scanner scan = new Scanner(System.in);
+		arrSize = scan.nextInt();
+		/*if(arrSize%2 !=0) {
+			num = new int [arrSize+1];
+		} else */
+			num = new int [arrSize];
+		
+		System.out.println("Enter Array elements");
+		for(int i=0; i< arrSize; i++) {
+			scan = new Scanner(System.in);
+			num[i] = scan.nextInt();
+		}
+		
 		ProgrammingTest4 test = new ProgrammingTest4();
 		test.divideArray(num);
 	}
