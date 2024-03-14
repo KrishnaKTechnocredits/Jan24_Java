@@ -10,6 +10,7 @@ public class Assignment_68 {
 		manager1.getData();
 		manager1.display();
 	}
+	
 	void applyCase2() {
 		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 2");
@@ -18,6 +19,7 @@ public class Assignment_68 {
 		System.out.println(Employee1.empname);
 		Employee1.getData();
 	}
+	
 	void applyCase3() {
 		Manager1 manager1=new Employee1();
 		System.out.println("\n-----------------------------");
@@ -27,6 +29,7 @@ public class Assignment_68 {
 		manager1.getData();
 		manager1.display();
 	}
+	
 	void applyCase4() {
 		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 4");
@@ -38,6 +41,7 @@ public class Assignment_68 {
 		 employee.getData();
 		 */
 	}
+	
 	void applyCase5() {
 		System.out.println("\n-----------------------------");
 		System.out.println("#CASE - 5");
