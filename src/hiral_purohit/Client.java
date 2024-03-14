@@ -1,14 +1,14 @@
 package hiral_purohit;
-
-public class Client { // extends Connection
+//eager loading implementation
+public class Client {
 
 	public static void main(String[] args) {
-		Connection con = Connection.getObject();
-		Connection con2 = Connection.getObject();
-		Connection con3 = Connection.getObject();
-		System.out.println(con);
-		System.out.println(con2);
-		System.out.println(con3);
+		Builder builder = Builder.getObject();
+		Builder builder2 = Builder.getObject();
+		Builder builder3 = Builder.getObject();
+		System.out.println(builder);
+		System.out.println(builder2);
+		System.out.println(builder3);
 	}
 
 }
