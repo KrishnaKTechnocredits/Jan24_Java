@@ -1,11 +1,11 @@
 package madhura_kulkarni.oops_concepts_programs;
 
-public class InheritanceAllCases {
+public class Inheritance {
 
 	public static void main(String[] args) {
 		System.out.println("Inheritance : Case 1");
 //In case 1, create an object of parent class. Only the variables and methods in parent class should be accessible.
-		Manager case1 = new Manager();
+		ManagerFile case1 = new ManagerFile();
 		System.out.println(case1.managerId);
 		case1.printId();
 //System.out.println(case1.empId);  
@@ -15,7 +15,7 @@ public class InheritanceAllCases {
 		System.out.println("\nInheritance : Case 2");
 		// In case 2, create an object of child class. Only the variables and methods in
 		// child class should be accessible.
-		Employee case2 = new Employee();
+		EmployeeFile case2 = new EmployeeFile();
 		System.out.println(case2.empName);
 		case2.printName();
 		// System.out.println(case2.managerId);
@@ -28,7 +28,7 @@ public class InheritanceAllCases {
 		// class. On the compile time, compiler gives guarantee of parent class but at
 		// run time, the methods from child class will get executed. This run time
 		// change in behavior is Dynamic Polymorphism.
-		Manager case3 = new Employee();
+		ManagerFile case3 = new EmployeeFile();
 		case3.printId();
 		case3.printName();
 
@@ -45,8 +45,8 @@ public class InheritanceAllCases {
 		 * In case5, the behavior is same as like case3.
 		 * 
 		 */
-		Manager case5 = new Employee();
-		Employee case2_1 = new Employee();
+		ManagerFile case5 = new EmployeeFile();
+		EmployeeFile case2_1 = new EmployeeFile();
 		case5 = case2_1;
 		System.out.println(case5.managerId);
 		System.out.println(case5.managerName);

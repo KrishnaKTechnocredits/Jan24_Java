@@ -1,6 +1,6 @@
 package madhura_kulkarni.oops_concepts_programs;
 
-public class Manager {
+public class ManagerFile {
 	int managerId = 123;
 	String managerName = "Madhura";
 
