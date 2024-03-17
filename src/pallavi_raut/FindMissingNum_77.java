@@ -13,8 +13,7 @@ Program 3 : Find out all missing number from 1 to 10.
  
 int[] x = {2,4,1,5,6,9,8,10};
 output : 3
-         7 
-*/
+         7 --------------------------*/
 package pallavi_raut;
 
 class FindMissingNum_77 {
