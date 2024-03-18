@@ -1,7 +1,5 @@
 package shraddha;
 
-import rupali_umagol.Assignment78;
-
 public class Assignment_78 {
 
 	void printStar() {
@@ -38,6 +36,7 @@ public class Assignment_78 {
 		assignment_78.printStar();
 		assignment_78.printAllNums();
 	}
+	
 }
 
 	
