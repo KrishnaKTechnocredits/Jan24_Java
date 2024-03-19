@@ -8,7 +8,7 @@ public class Assignment_80 {
 		int[] abc = new int[5];
 		Scanner sc = new Scanner(System.in);
 		for(int i=0;i<5;i++) {
-			System.out.println("Enter number in position " + i);
+			System.out.println("Enter number in position" + i);
 			int input = sc.nextInt();
 			abc[i] = input;
 		}
