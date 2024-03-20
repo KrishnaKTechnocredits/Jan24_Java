@@ -21,7 +21,7 @@ public class Assignment_77_1MissingNumEx1 {
 	
 	public static void main(String[] args) {
 		int[] arr = {2,4,1,5,6,9,8,10};
-		Assignment_77_1MissingNumEx1 ass__1missingnumex1 = new Assignment_77_1MissingNumEx1();
-		ass__1missingnumex1.firstMissingNum(arr);
+		Assignment_77_1MissingNumEx1 ass77_1missingnumex1 = new Assignment_77_1MissingNumEx1();
+		ass77_1missingnumex1.firstMissingNum(arr);
 	}
 }
