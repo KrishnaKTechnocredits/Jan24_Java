@@ -33,8 +33,8 @@ public class Assignment_81 {
 	public static void main(String[] args) {
 		try {
 			new Assignment_81().getInputPropertyFile();
-		} catch (IOException io) {
-			System.out.println("File not found");
+		} catch (IOException e) {
+			e.printStackTrace;
 		}
 		
 	}
