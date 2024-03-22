@@ -1,3 +1,4 @@
+//Read input from properties file and find out how many vowels are there in the input.
 package akshay_gaikwad;
 
 import java.io.File;
@@ -25,7 +26,8 @@ public class ReadProperties {
 		Properties prop = new Properties();
 		prop.load(inputStream);
 		String str1 = prop.getProperty("str");
-		System.out.println(new ReadProperties().getVowelCount(str1));
+		int count =new ReadProperties().getVowelCount(str1);
+		System.out.println("Number of vowels in "+ str1 + ": " + count);
 		
 	}
 }
