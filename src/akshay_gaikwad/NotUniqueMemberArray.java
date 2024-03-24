@@ -3,15 +3,6 @@ package akshay_gaikwad;
 
 public class NotUniqueMemberArray {
 	
-	boolean isProcessed(int[] arr, int i, int num) {
-		for(int index = 0; index < i;index++) {
-			if(arr[i] == num) {
-				return true;
-			}
-		}
-		return false;
-	}
-	
 	int getFreqFromArray(int [] arr, int num) {
 		int count = 0;
 		for(int numArr : arr) {
@@ -25,9 +16,6 @@ public class NotUniqueMemberArray {
 	void printNotUniqueNum(int [] arr) {
 		for(int index = 0; index < arr.length; index++) {
 			int num = arr[index];
-//			if(isProcessed(arr, index, num)) {
-//				System.out.println(num);				
-//			}
 			if(getFreqFromArray(arr, num) != 1) {
 				System.out.print(num + " ");
 			}
