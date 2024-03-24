@@ -65,7 +65,6 @@ public class SpecialCharCount {
 		String str = "I__am___in_pune____";
 		ArrayList<String> arrayList = new ArrayList<>();
 		ArrayList<Integer> arrayCountList = new ArrayList<>();
-		
 		SpecialCharCount specialCharCount = new SpecialCharCount();
 		arrayList = specialCharCount.getArrayList(str);
 		arrayCountList = specialCharCount.getCountOfSpecialChar(arrayList, str);
