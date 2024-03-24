@@ -11,8 +11,15 @@ public class FibonacciWithRange {
 		int number2 = 1;
 		int number3=0;
 		
-		System.out.print("Fibbonicci Series \n"+number1+ ","+ number2);
-		for(int i=2; number3 <100; i++) {
+		System.out.print("Fibbonicci Series \n");
+		while(number1 < 100) {
+			System.out.print(number1+",");
+			number3 = number1+number2;
+			number1 = number2;
+			number2 = number3;
+		}
+		
+		/*for(int i=2; number3 <100; i++) {
 			number3 = number1+number2;
 			if(number3 <100) {
 				System.out.print(","+number3);
@@ -20,7 +27,7 @@ public class FibonacciWithRange {
 			}
 			number1 = number2;
 			number2 = number3;
-		}
+		}*/
 	}
 	
 	public static void main(String[] args) {

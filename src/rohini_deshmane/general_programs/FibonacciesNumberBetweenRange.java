@@ -11,12 +11,10 @@ public class FibonacciesNumberBetweenRange {
 		int number3=0;
 		
 		System.out.print("Fibbonicci Series numbers between 50 to 100 \n");
-		for(int i=2; number3 <100; i++) {
+		while(number1 < 100) {
+			if(number1>50 && number1<100)
+				System.out.print(number1+",");
 			number3 = number1+number2;
-			if(number3 > 50 && number3 <100) {
-				System.out.print(number3+",");
-				
-			}
 			number1 = number2;
 			number2 = number3;
 		}
