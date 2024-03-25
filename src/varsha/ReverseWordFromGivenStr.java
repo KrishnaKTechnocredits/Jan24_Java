@@ -4,7 +4,6 @@ package varsha;
 //	 Input: Welcome to Technocredits
 //	 Output: emocleW ot stiderconhceT
 
-
 public class ReverseWordFromGivenStr {
 
 	String reverseWord(String str) {
