@@ -34,7 +34,7 @@ public class Assignment_81 {
 		try {
 			new Assignment_81().getInputPropertyFile();
 		} catch (IOException e) {
-			e.printStackTrace;
+			e.printStackTrace();
 		}
 		
 	}
