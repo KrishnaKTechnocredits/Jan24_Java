@@ -9,7 +9,7 @@ public class Assignment_96_p2 {
 		int n2 = 1;
 		System.out.print(n1 + "," + n2);
 		int n3 = 0;
-		for (int i = 2;; i++) {
+		for (int i = 2; i<n; i++){
 			n3 = n1 + n2;
 			if (n3 > n) {
 				break;
