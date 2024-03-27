@@ -14,11 +14,13 @@ public class Assignment98 {
 		char[] arr = str.toCharArray();
 		Map<Character, Integer> countOfChar = new LinkedHashMap<>();
 		for (int i = 0; i < arr.length; i++) {
-			if (countOfChar.containsKey(arr[i])) {
-				int count = countOfChar.get(arr[i]);
-				countOfChar.put(arr[i], count + 1);
-			} else
-				countOfChar.put(arr[i], 1);
+			if (!Character.isAlphabetic(arr[i])) {
+				if (countOfChar.containsKey(arr[i])) {
+					int count = countOfChar.get(arr[i]);
+					countOfChar.put(arr[i], count + 1);
+				} else
+					countOfChar.put(arr[i], 1);
+			}
 		}
 		System.out.println(countOfChar);
 	}
