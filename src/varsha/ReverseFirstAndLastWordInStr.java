@@ -3,7 +3,6 @@ package varsha;
 //Write a code to reverse only first and last word of statement.
 //Input: Welcome to the Technocredits
 //Output : emocleW to the stiderconhceT
-//Expected = 15-20 min : Actual = 15 min
 
 public class ReverseFirstAndLastWordInStr {
 
