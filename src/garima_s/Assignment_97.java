@@ -3,13 +3,19 @@ package garima_s;
 public class Assignment_97 {
 
 	void getArmStrongNumber(int[] arr) {
+	
+		int sum =0;
 		System.out.print("Armstrong Numbers : ");
 		for (int i = 0; i < arr.length; i++) {
 			if (isArmStrongNumber(arr[i])) {
+				sum+=arr[i];
 				System.out.println(arr[i]);
 			}
-		}
+		}System.out.println("Sum of Armstrong Numbers :"+sum);
 	}
+	
+	
+
 
 	boolean isArmStrongNumber(int num) {
 		int rem = 0;
