@@ -19,7 +19,6 @@ pqr - 1
 
 package phenol_verma;
 
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
@@ -37,13 +36,11 @@ public class MapWordFreqCount {
 				mapOutput.put(word, 1);
 			}
 		}
-
 		return mapOutput;
 	}
 
 	void maxCount(Map<String, Integer> maxCount) {
 		Set<String> arrKeys = maxCount.keySet();
-
 		String[] array = arrKeys.toArray(new String[arrKeys.size()]);
 		int maxValue = 0;
 		for (int index = 0; index < array.length; index++) {
@@ -52,26 +49,32 @@ public class MapWordFreqCount {
 				maxValue = value;
 			}
 		}
-
 		for (String key : array) {
 			int value = maxCount.get(key);
 			if (value == maxValue) {
-				System.out.println("Max reporting word is " + key);
+				System.out.println("Max reporting word is - " + key);
 			}
 		}
 	}
 
 	void countWordFreqUsingArray(String str) {
 		String[] strArray = str.split(" ");
+		int maxFreq = 0;
+		String maxFreqWord = "";
 		for (int index = 0; index < strArray.length; index++) {
 			int count = 0;
 			for (int innerIndex = 0; innerIndex < strArray.length; innerIndex++) {
 				if (strArray[index].equals(strArray[innerIndex])) {
 					count++;
 				}
+				if (maxFreq < count) {
+					maxFreq = count;
+					maxFreqWord = strArray[index];
+				}
 			}
 			System.out.println(strArray[index] + " -> " + count);
 		}
+		System.out.println("Max reporting word is - " + maxFreqWord + " -> " + maxFreq);
 	}
 
 	public static void main(String[] args) {
@@ -82,6 +85,7 @@ public class MapWordFreqCount {
 		Map<String, Integer> mapTocountMax = mapWordFreqCount.countWordFreqUsingMap(str);
 		System.out.println(mapTocountMax);
 		mapWordFreqCount.maxCount(mapTocountMax);
+		System.out.println("**************************************************");
 		System.out.print("Count of the word and frequency using array - ");
 		mapWordFreqCount.countWordFreqUsingArray(str);
 
