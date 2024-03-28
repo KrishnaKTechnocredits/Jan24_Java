@@ -39,7 +39,38 @@ public class StringFrequency {
 
 		}
 
-		System.out.println("String occuring maximum is " + maxString + " with frequency " + max);
+		System.out.println("--Max occuring string using Map---");
+		System.out.println(maxString + "->" + max);
+	}
+
+	int getMaxStringFreqUsingArray(String[] arr, String str) {
+
+		int count = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].equals(str)) {
+				count++;
+
+			}
+		}
+
+		return count;
+	}
+
+	void display(String[] arr) {
+		int max = 0;
+		String output = "";
+		for (int i = 0; i < arr.length; i++) {
+			int count = getMaxStringFreqUsingArray(arr, arr[i]);
+
+			if (count > max) {
+				max = count;
+				output += arr[i];
+			}
+		}
+
+		System.out.println();
+		System.out.println("---Max occuring string using array---");
+		System.out.println(max + "->" + output);
 	}
 
 	public static void main(String[] args) {
@@ -47,5 +78,6 @@ public class StringFrequency {
 		String str = "abc xyz abc pqr";
 		String[] arr = str.split(" ");
 		stringFrequency.getStringFreq(arr);
+		stringFrequency.display(arr);
 	}
 }
