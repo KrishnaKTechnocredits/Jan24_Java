@@ -5,9 +5,7 @@ Print numbers present uniquely from array using HashMap.*/
 package sveta;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Scanner;
 import java.util.Set;
 
 public class Assignment_84 {
