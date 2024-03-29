@@ -22,5 +22,4 @@ public class Assignment_96_1 {
 	public static void main(String[] args) {
 		new Assignment_96_1().findFebonacci(10);
 	}
-
 }
