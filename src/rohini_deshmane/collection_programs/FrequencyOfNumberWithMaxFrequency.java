@@ -23,7 +23,7 @@ public class FrequencyOfNumberWithMaxFrequency {
 		System.out.println("Map : ");
 		System.out.println(numberFreqeuncyMap);
 		
-		int maxFrequencyValue = numberFreqeuncyMap.get(10);
+		int maxFrequencyValue=0;
 
 		for(int key:keySet) {
 			number = numberFreqeuncyMap.get(key);
