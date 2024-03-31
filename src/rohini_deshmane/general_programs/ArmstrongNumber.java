@@ -7,7 +7,7 @@ input : 153
 output : 153 is an armStrong number.
 
 11.2 return sum of all the argStrong number from give array. 
-input : {153,27,1624,99}
+input : {153,27,1634,99}
 output : 153 + 1634
  */
 import java.util.Scanner;
