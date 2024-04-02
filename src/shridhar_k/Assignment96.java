@@ -12,7 +12,6 @@ package shridhar_k;
 // output : 55,89 
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
-import java.util.*;
 
 class Assignment96 {
 
@@ -66,8 +65,10 @@ class Assignment96 {
 	public static void main(String[] args) {
 		System.out.println("Fibonacci series for 10 elements.");
 		new Assignment96().printFibonacciNElement(10);
+		System.out.println();
 		System.out.println("all the numbers of Fibonacci series between 50 & 100");
 		new Assignment96().printFibonacciForRange(50, 100);
+		System.out.println();
 		System.out.println("all the numbers of Fibonacci series up to 100");
 		new Assignment96().printFibonacciForUpperLimit(100);
 	}
