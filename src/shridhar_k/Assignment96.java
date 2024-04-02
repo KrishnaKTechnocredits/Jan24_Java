@@ -20,7 +20,7 @@ class Assignment96 {
 		int b = 1;
 		int c = 0;
 		System.out.print(a + ", " + b + ", ");
-		for (int i = 0; i < num; i++) {
+		for (int i = 2; i < num; i++) {
 			c = a + b;
 			a = b;
 			b = c;
@@ -37,7 +37,6 @@ class Assignment96 {
 			c = a + b;
 			a = b;
 			b = c;
-			// System.out.print(c + ", ");
 			if (c < num2 && c >= num1) {
 				System.out.print(c + ", ");
 			}
