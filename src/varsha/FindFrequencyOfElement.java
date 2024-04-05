@@ -6,7 +6,6 @@ import java.util.Map;
 //Print frequency of each character from given input. [using Map]
 //Print frequency of each word from given input. [using Map]
 //Print frequency of each number from given input. [using Map]
-//Expected = 45 min : Actual = 40 min;
 
 public class FindFrequencyOfElement {
 
