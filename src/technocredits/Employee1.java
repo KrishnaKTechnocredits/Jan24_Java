@@ -2,8 +2,9 @@ package technocredits;
 
 class Employee1 {
 	
-	int num = 10;
-	int sum = 10;
+	int num = 30;
+	int sum = 50;
+
 	void readDataFromTxtFile() {
 		int temp = 1000;
 		System.out.println(temp);
