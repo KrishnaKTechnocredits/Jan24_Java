@@ -2,7 +2,8 @@ package technocredits;
 
 class Employee1 {
 	
-	int num = 100;
+	int num = 1000;
+	int sum = 0;
 	
 	void readDataFromTxtFile() {
 		/// Code
