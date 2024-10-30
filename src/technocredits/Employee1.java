@@ -2,12 +2,10 @@ package technocredits;
 
 class Employee1 {
 	
-	int num = 1000;
-	int sum = 0;
-	
+	int num = 10;
+	int sum = 10;
 	void readDataFromTxtFile() {
-		/// Code
-		int temp = 100;
+		int temp = 1000;
 		System.out.println(temp);
 	}
 	
